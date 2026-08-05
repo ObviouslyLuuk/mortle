@@ -19,7 +19,7 @@ Then open `http://localhost:8000`. Opening `index.html` directly from disk won't
 ## How to play
 
 - Each game is **10 rounds**, picked randomly from the figure pool.
-- The **max difficulty slider** controls the pool: a setting of *N* draws only from figures rated difficulty 1 through *N* (default 5 = everyone). It's always visible; moving it immediately reshuffles the current game with the new pool. Your setting is remembered in `localStorage`, and the current difficulty is shown in the header.
+- The **max difficulty slider** controls the pool: a setting of *N* draws only from figures rated difficulty 1 through *N* (default 1 = the easiest tier; slide up to 5 for everyone). It's always visible; moving it immediately reshuffles the current game with the new pool. Your setting is remembered in `localStorage`, and the current difficulty is shown in the header.
 - The **Stats** button in the header opens your lifetime stats (current score, best streak, games played, lifetime points, total correct) at any time.
 - The map shows two markers: a **green** dot with a ring for the birthplace (labelled `born 1769`) and a **red** dot for the place of death (labelled `died 1821`).
 - The map auto-zooms to fit both locations (clamped so you see the surrounding region) and stays zoomable/pannable. Use the reset button to reframe.

@@ -391,9 +391,9 @@
   function loadDifficulty() {
     try {
       const v = parseInt(localStorage.getItem(LS_DIFF_KEY), 10);
-      return v >= 1 && v <= 5 ? v : 5;
+      return v >= 1 && v <= 5 ? v : 1;
     } catch (e) {
-      return 5;
+      return 1;
     }
   }
 
