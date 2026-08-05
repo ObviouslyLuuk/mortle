@@ -1,0 +1,1628 @@
+[
+  {
+    "name": "Napoleon Bonaparte",
+    "gender": "man",
+    "occupation": "Military Leader / Emperor",
+    "cause_of_death": "Illness",
+    "birth": {
+      "place": "Ajaccio, Corsica, France",
+      "year": 1769,
+      "lat": 41.9272,
+      "lng": 8.7346
+    },
+    "death": {
+      "place": "Longwood, Saint Helena",
+      "year": 1821,
+      "lat": -15.9575,
+      "lng": -5.6772
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/330px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg?width=640"
+    ],
+    "aliases": [
+      "Napoleon",
+      "Napoleon I"
+    ],
+    "blurb": "French emperor who conquered much of Europe",
+    "difficulty": 1
+  },
+  {
+    "name": "Christopher Columbus",
+    "gender": "man",
+    "occupation": "Explorer",
+    "cause_of_death": "Illness",
+    "birth": {
+      "place": "Genoa, Republic of Genoa",
+      "year": 1451,
+      "lat": 44.4056,
+      "lng": 8.9463
+    },
+    "death": {
+      "place": "Valladolid, Spain",
+      "year": 1506,
+      "lat": 41.6523,
+      "lng": -4.7245
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/330px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg?width=640"
+    ],
+    "aliases": [
+      "Cristoforo Colombo",
+      "Cristobal Colon",
+      "Cristobal Colón"
+    ],
+    "blurb": "explorer credited with reaching the Americas in 1492",
+    "difficulty": 1
+  },
+  {
+    "name": "Marie Curie",
+    "gender": "woman",
+    "occupation": "Physicist / Chemist",
+    "cause_of_death": "Radiation",
+    "birth": {
+      "place": "Warsaw, Russian Empire (modern day Poland)",
+      "year": 1867,
+      "lat": 52.2297,
+      "lng": 21.0122
+    },
+    "death": {
+      "place": "Passy, France",
+      "year": 1934,
+      "lat": 45.9237,
+      "lng": 6.6862
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/330px-Marie_Curie_c._1920s.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c._1920s.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c._1920s.jpg?width=640"
+    ],
+    "aliases": [
+      "Maria Sklodowska-Curie",
+      "Maria Skłodowska-Curie"
+    ],
+    "blurb": "pioneer of radioactivity who discovered polonium and radium. “Nothing in life is to be feared, it is only to be understood.”",
+    "difficulty": 1
+  },
+  {
+    "name": "Freddie Mercury",
+    "gender": "man",
+    "occupation": "Singer / Songwriter",
+    "cause_of_death": "Illness",
+    "birth": {
+      "place": "Stone Town, Zanzibar, British protectorate (modern day Tanzania)",
+      "year": 1946,
+      "lat": -6.1659,
+      "lng": 39.1921
+    },
+    "death": {
+      "place": "London, United Kingdom",
+      "year": 1991,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg/330px-Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg?width=640"
+    ],
+    "aliases": [
+      "Farrokh Bulsara",
+      "Freddie Bulsara"
+    ],
+    "blurb": "frontman of the rock band Queen",
+    "difficulty": 1
+  },
+  {
+    "name": "Alexander the Great",
+    "gender": "man",
+    "occupation": "Monarch / Military Commander",
+    "cause_of_death": "Fever",
+    "birth": {
+      "place": "Pella, Kingdom of Macedon (modern day Greece)",
+      "year": -356,
+      "lat": 40.7602,
+      "lng": 22.5257
+    },
+    "death": {
+      "place": "Babylon, Macedonian Empire (modern day Iraq)",
+      "year": -323,
+      "lat": 32.5363,
+      "lng": 44.4208
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg?width=640"
+    ],
+    "aliases": [
+      "Alexander III of Macedon"
+    ],
+    "blurb": "Macedonian king who conquered an empire from Greece to India",
+    "difficulty": 1
+  },
+  {
+    "name": "Karl Marx",
+    "gender": "man",
+    "occupation": "Philosopher / Economist",
+    "cause_of_death": "Illness",
+    "birth": {
+      "place": "Trier, Kingdom of Prussia (modern day Germany)",
+      "year": 1818,
+      "lat": 49.7557,
+      "lng": 6.6394
+    },
+    "death": {
+      "place": "London, United Kingdom",
+      "year": 1883,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/330px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png?width=640"
+    ],
+    "aliases": [],
+    "blurb": "wrote the Communist Manifesto and Das Kapital. “Workers of the world, unite!”",
+    "difficulty": 2
+  },
+  {
+    "name": "Ernest Hemingway",
+    "gender": "man",
+    "occupation": "Author / Journalist",
+    "cause_of_death": "Suicide",
+    "birth": {
+      "place": "Oak Park, Illinois, USA",
+      "year": 1899,
+      "lat": 41.885,
+      "lng": -87.7845
+    },
+    "death": {
+      "place": "Ketchum, Idaho, USA",
+      "year": 1961,
+      "lat": 43.6807,
+      "lng": -114.3637
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/330px-ErnestHemingway.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/ErnestHemingway.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/ErnestHemingway.jpg?width=640"
+    ],
+    "aliases": [],
+    "blurb": "wrote The Old Man and the Sea and A Farewell to Arms",
+    "difficulty": 1
+  },
+  {
+    "name": "Cleopatra",
+    "gender": "woman",
+    "occupation": "Pharaoh / Monarch",
+    "cause_of_death": "Suicide",
+    "birth": {
+      "place": "Alexandria, Ptolemaic Kingdom",
+      "year": -69,
+      "lat": 31.2001,
+      "lng": 29.9187
+    },
+    "death": {
+      "place": "Alexandria, Ptolemaic Kingdom",
+      "year": -30,
+      "lat": 31.2001,
+      "lng": 29.9187
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kleopatra-VII.-Altes-Museum-Berlin1.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kleopatra-VII.-Altes-Museum-Berlin1.jpg?width=640"
+    ],
+    "aliases": [
+      "Cleopatra VII",
+      "Cleopatra VII Philopator"
+    ],
+    "blurb": "last active pharaoh of Ptolemaic Egypt",
+    "difficulty": 1
+  },
+  {
+    "name": "Pablo Neruda",
+    "gender": "man",
+    "occupation": "Poet / Politician",
+    "cause_of_death": "Cancer",
+    "birth": {
+      "place": "Parral, Chile",
+      "year": 1904,
+      "lat": -36.143,
+      "lng": -71.8282
+    },
+    "death": {
+      "place": "Santiago, Chile",
+      "year": 1973,
+      "lat": -33.4489,
+      "lng": -70.6693
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Pablo_Neruda_1963.jpg/330px-Pablo_Neruda_1963.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_Neruda_1963.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_Neruda_1963.jpg?width=640"
+    ],
+    "aliases": [
+      "Neftali Ricardo Reyes Basoalto",
+      "Neftalí Ricardo Reyes Basoalto"
+    ],
+    "blurb": "Chilean poet who won the Nobel Prize in Literature",
+    "difficulty": 2
+  },
+  {
+    "name": "Sigmund Freud",
+    "gender": "man",
+    "occupation": "Psychoanalyst / Neurologist",
+    "cause_of_death": "Euthanasia",
+    "birth": {
+      "place": "Freiberg in Mähren, Austrian Empire (modern day Příbor, Czech Republic)",
+      "year": 1856,
+      "lat": 49.6416,
+      "lng": 18.1444
+    },
+    "death": {
+      "place": "London, United Kingdom",
+      "year": 1939,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/330px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sigmund_Freud%2C_by_Max_Halberstadt_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sigmund_Freud%2C_by_Max_Halberstadt_(cropped).jpg?width=640"
+    ],
+    "aliases": [],
+    "blurb": "founded psychoanalysis",
+    "difficulty": 2
+  },
+  {
+    "name": "George Orwell",
+    "gender": "man",
+    "occupation": "Author / Essayist",
+    "cause_of_death": "Tuberculosis",
+    "birth": {
+      "place": "Motihari, British India",
+      "year": 1903,
+      "lat": 26.6469,
+      "lng": 84.9126
+    },
+    "death": {
+      "place": "London, United Kingdom",
+      "year": 1950,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/330px-George_Orwell_press_photo.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/George_Orwell_press_photo.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/George_Orwell_press_photo.jpg?width=640"
+    ],
+    "aliases": [
+      "Eric Blair",
+      "Eric Arthur Blair"
+    ],
+    "blurb": "wrote 1984 and Animal Farm",
+    "difficulty": 2
+  },
+  {
+    "name": "Frida Kahlo",
+    "gender": "woman",
+    "occupation": "Painter",
+    "cause_of_death": "Embolism",
+    "birth": {
+      "place": "Coyoacán, Mexico City, Mexico",
+      "year": 1907,
+      "lat": 19.3497,
+      "lng": -99.1617
+    },
+    "death": {
+      "place": "Coyoacán, Mexico City, Mexico",
+      "year": 1954,
+      "lat": 19.3497,
+      "lng": -99.1617
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg/330px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg?width=640"
+    ],
+    "aliases": [],
+    "blurb": "Mexican painter known for her self-portraits",
+    "difficulty": 3
+  },
+  {
+    "name": "Albert Einstein",
+    "gender": "man",
+    "occupation": "Theoretical Physicist",
+    "cause_of_death": "Aneurysm",
+    "birth": {
+      "place": "Ulm, German Empire",
+      "year": 1879,
+      "lat": 48.4011,
+      "lng": 9.9876
+    },
+    "death": {
+      "place": "Princeton, New Jersey, USA",
+      "year": 1955,
+      "lat": 40.3573,
+      "lng": -74.6672
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/330px-Albert_Einstein_Head_cleaned.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Einstein_Head_cleaned.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Einstein_Head_cleaned.jpg?width=640"
+    ],
+    "aliases": [],
+    "blurb": "developed the theory of relativity. “Imagination is more important than knowledge.”",
+    "difficulty": 1
+  },
+  {
+    "name": "Leon Trotsky",
+    "gender": "man",
+    "occupation": "Revolutionary / Politician",
+    "cause_of_death": "Assassination",
+    "birth": {
+      "place": "Yanovka, Russian Empire (modern day Ukraine)",
+      "year": 1879,
+      "lat": 47.8966,
+      "lng": 32.3275
+    },
+    "death": {
+      "place": "Coyoacán, Mexico City, Mexico",
+      "year": 1940,
+      "lat": 19.3497,
+      "lng": -99.1617
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Leon_Trotsky_1918_%283x4_rotated_cropped_b%29.jpg/330px-Leon_Trotsky_1918_%283x4_rotated_cropped_b%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg?width=640"
+    ],
+    "aliases": [
+      "Lev Trotsky",
+      "Lev Davidovich Bronstein"
+    ],
+    "blurb": "Russian revolutionary and founder of the Red Army",
+    "difficulty": 3
+  },
+  {
+    "name": "Florence Nightingale",
+    "gender": "woman",
+    "occupation": "Nurse / Statistician",
+    "cause_of_death": "Old Age",
+    "birth": {
+      "place": "Florence, Grand Duchy of Tuscany",
+      "year": 1820,
+      "lat": 43.7696,
+      "lng": 11.2558
+    },
+    "death": {
+      "place": "London, United Kingdom",
+      "year": 1910,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg/330px-Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Florence_Nightingale_(H_Hering_NPG_x82368).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Florence_Nightingale_(H_Hering_NPG_x82368).jpg?width=640"
+    ],
+    "aliases": [],
+    "blurb": "pioneering nurse who founded modern nursing",
+    "difficulty": 2
+  },
+  {
+    "name": "Vincent van Gogh",
+    "gender": "man",
+    "occupation": "Painter",
+    "cause_of_death": "Suicide",
+    "birth": {
+      "place": "Zundert, Netherlands",
+      "year": 1853,
+      "lat": 51.4703,
+      "lng": 4.6606
+    },
+    "death": {
+      "place": "Auvers-sur-Oise, France",
+      "year": 1890,
+      "lat": 49.0718,
+      "lng": 2.1706
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/330px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg?width=640"
+    ],
+    "aliases": [],
+    "blurb": "Dutch post-impressionist painter of The Starry Night",
+    "difficulty": 1
+  },
+  {
+    "name": "Oscar Wilde",
+    "gender": "man",
+    "occupation": "Playwright / Poet",
+    "cause_of_death": "Meningitis",
+    "birth": {
+      "place": "Dublin, United Kingdom (modern day Ireland)",
+      "year": 1854,
+      "lat": 53.3498,
+      "lng": -6.2603
+    },
+    "death": {
+      "place": "Paris, France",
+      "year": 1900,
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated_%28cropped%29.jpg/330px-Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated_(cropped).jpg?width=640"
+    ],
+    "aliases": [],
+    "blurb": "Irish writer best known for the novel The Picture of Dorian Gray. “Be yourself; everyone else is already taken.”",
+    "difficulty": 2
+  },
+  {
+    "name": "Lord Byron",
+    "gender": "man",
+    "occupation": "Poet",
+    "cause_of_death": "Fever",
+    "birth": {
+      "place": "London, United Kingdom",
+      "year": 1788,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "death": {
+      "place": "Missolonghi, Ottoman Empire (modern day Greece)",
+      "year": 1824,
+      "lat": 38.3683,
+      "lng": 21.43
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Byron_1813_by_Phillips.jpg/330px-Byron_1813_by_Phillips.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Byron_1813_by_Phillips.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Byron_1813_by_Phillips.jpg?width=640"
+    ],
+    "aliases": [
+      "George Gordon Byron",
+      "George Gordon Noel Byron"
+    ],
+    "blurb": "Romantic poet who wrote Don Juan",
+    "difficulty": 2
+  },
+  {
+    "name": "Jeanne d'Arc",
+    "gender": "woman",
+    "occupation": "Military Leader",
+    "cause_of_death": "Burned at the stake",
+    "birth": {
+      "place": "Domrémy, Kingdom of France (modern day Domrémy-la-Pucelle)",
+      "year": 1412,
+      "lat": 48.4428,
+      "lng": 5.6747
+    },
+    "death": {
+      "place": "Rouen, France (then under English occupation)",
+      "year": 1431,
+      "lat": 49.4431,
+      "lng": 1.0993
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/330px-Joan_of_Arc_miniature_graded.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Joan_of_Arc_miniature_graded.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Joan_of_Arc_miniature_graded.jpg?width=640"
+    ],
+    "aliases": [
+      "Joan of Arc"
+    ],
+    "blurb": "French heroine who led armies during the Hundred Years' War",
+    "difficulty": 2
+  },
+  {
+    "name": "James Cook",
+    "gender": "man",
+    "occupation": "Explorer / Navigator",
+    "cause_of_death": "Homicide",
+    "birth": {
+      "place": "Marton, England",
+      "year": 1728,
+      "lat": 54.527,
+      "lng": -1.211
+    },
+    "death": {
+      "place": "Kealakekua Bay, Kingdom of Hawaii (modern day Hawaii, USA)",
+      "year": 1779,
+      "lat": 19.4789,
+      "lng": -155.9228
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Captainjamescookportrait.jpg/330px-Captainjamescookportrait.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Captainjamescookportrait.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Captainjamescookportrait.jpg?width=640"
+    ],
+    "aliases": [],
+    "blurb": "British explorer who charted the Pacific Ocean",
+    "difficulty": 2
+  },
+  {
+    "name": "John F. Kennedy",
+    "gender": "man",
+    "occupation": "Politician / 35th U.S. President",
+    "cause_of_death": "Assassination",
+    "blurb": "35th President of the United States, assassinated in 1963",
+    "aliases": [
+      "JFK",
+      "John Fitzgerald Kennedy"
+    ],
+    "birth": {
+      "place": "Brookline, Massachusetts, USA",
+      "year": 1917,
+      "lat": 42.3317,
+      "lng": -71.1212
+    },
+    "death": {
+      "place": "Dallas, Texas, USA",
+      "year": 1963,
+      "lat": 32.7767,
+      "lng": -96.797
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/330px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg?width=640"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name": "Princess Diana",
+    "gender": "woman",
+    "occupation": "Member of the British royal family",
+    "cause_of_death": "Car accident",
+    "blurb": "Princess of Wales, one of the most photographed women in the world",
+    "aliases": [
+      "Diana, Princess of Wales",
+      "Lady Diana Spencer",
+      "Lady Di"
+    ],
+    "birth": {
+      "place": "Sandringham, Norfolk, England",
+      "year": 1961,
+      "lat": 52.8296,
+      "lng": 0.5139
+    },
+    "death": {
+      "place": "Paris, France",
+      "year": 1997,
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Diana%2C_Princess_of_Wales_1997_%282%29.jpg/330px-Diana%2C_Princess_of_Wales_1997_%282%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Diana%2C_Princess_of_Wales_1997_(2).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Diana%2C_Princess_of_Wales_1997_(2).jpg?width=640"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name": "Marco Polo",
+    "gender": "man",
+    "occupation": "Merchant / Explorer",
+    "cause_of_death": "Illness",
+    "blurb": "Venetian merchant who traveled the Silk Road to China",
+    "aliases": [],
+    "birth": {
+      "place": "Venice, Republic of Venice",
+      "year": 1254,
+      "lat": 45.4408,
+      "lng": 12.3155
+    },
+    "death": {
+      "place": "Venice, Republic of Venice",
+      "year": 1324,
+      "lat": 45.4408,
+      "lng": 12.3155
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Frontispice_%C3%A9dition_de_Nuremberg_1477_%28cropped%29.png/330px-Frontispice_%C3%A9dition_de_Nuremberg_1477_%28cropped%29.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frontispice_%C3%A9dition_de_Nuremberg_1477_(cropped).png?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frontispice_%C3%A9dition_de_Nuremberg_1477_(cropped).png?width=640"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name": "Amelia Earhart",
+    "gender": "woman",
+    "occupation": "Aviator",
+    "cause_of_death": "Disappearance",
+    "blurb": "pioneering aviator who vanished while attempting to fly around the world",
+    "aliases": [],
+    "birth": {
+      "place": "Atchison, Kansas, USA",
+      "year": 1897,
+      "lat": 39.5633,
+      "lng": -95.1216
+    },
+    "death": {
+      "place": "Pacific Ocean, near Howland Island",
+      "year": 1937,
+      "lat": 0.8063,
+      "lng": -176.6195
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg/330px-Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_(cropped).jpg?width=640"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name": "Genghis Khan",
+    "gender": "man",
+    "occupation": "Emperor / Founder of the Mongol Empire",
+    "cause_of_death": "Unknown",
+    "blurb": "conquered the largest contiguous empire in history, stretching from the Pacific to the Caspian Sea",
+    "aliases": [
+      "Temujin",
+      "Chinggis Khan"
+    ],
+    "birth": {
+      "place": "Delüün Boldog, Mongol homeland (modern day Khentii, Mongolia)",
+      "year": 1162,
+      "lat": 48.03,
+      "lng": 109.7
+    },
+    "death": {
+      "place": "Yinchuan, Western Xia (modern day Ningxia, China)",
+      "year": 1227,
+      "lat": 38.4872,
+      "lng": 106.2309
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/YuanEmperorAlbumGenghisPortrait.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/YuanEmperorAlbumGenghisPortrait.jpg?width=640"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name": "Adolf Hitler",
+    "gender": "man",
+    "occupation": "Dictator / Politician",
+    "cause_of_death": "Suicide",
+    "blurb": "you know who this is..",
+    "aliases": [],
+    "birth": {
+      "place": "Braunau am Inn, Austria-Hungary",
+      "year": 1889,
+      "lat": 48.2561,
+      "lng": 13.0434
+    },
+    "death": {
+      "place": "Berlin, Germany",
+      "year": 1945,
+      "lat": 52.52,
+      "lng": 13.405
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/330px-Hitler_portrait_crop_%28cropped%29%282%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hitler_portrait_crop_(cropped)(2).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hitler_portrait_crop_(cropped)(2).jpg?width=640"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name": "Saladin",
+    "gender": "man",
+    "occupation": "Sultan of Egypt and Syria / Military leader",
+    "cause_of_death": "Illness",
+    "blurb": "Muslim sultan who defeated the Crusaders and recaptured Jerusalem",
+    "aliases": [
+      "Salah ad-Din",
+      "Salah al-Din"
+    ],
+    "birth": {
+      "place": "Tikrit, Mesopotamia (modern day Iraq)",
+      "year": 1137,
+      "lat": 34.6154,
+      "lng": 43.6786
+    },
+    "death": {
+      "place": "Damascus, Ayyubid Sultanate (modern day Syria)",
+      "year": 1193,
+      "lat": 33.5138,
+      "lng": 36.2765
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Al-Nasir_I_Salah_al-Din_Yusuf_%28Saladin%29._AH_564-589_%281169-1193_CE%29_%C3%86_Dirham_%2830.1mm%2C_13.28_g%2C_6h%29._Without_mint-name._Dated_AH_586_%28AD_1190-91%29._Sultan_sitting_facing%2C_cross-legged%2C_on_high-backed_throne_%28obverse%29.jpg/330px-thumbnail.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._AH_564-589_(1169-1193_CE)_%C3%86_Dirham_(30.1mm%2C_13.28_g%2C_6h)._Without_mint-name._Dated_AH_586_(AD_1190-91)._Sultan_sitting_facing%2C_cross-legged%2C_on_high-backed_throne_(obverse).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._AH_564-589_(1169-1193_CE)_%C3%86_Dirham_(30.1mm%2C_13.28_g%2C_6h)._Without_mint-name._Dated_AH_586_(AD_1190-91)._Sultan_sitting_facing%2C_cross-legged%2C_on_high-backed_throne_(obverse).jpg?width=640"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name": "Confucius",
+    "gender": "man",
+    "occupation": "Philosopher / Teacher",
+    "cause_of_death": "Natural causes",
+    "blurb": "Chinese philosopher whose teachings greatly influenced East Asian civilization. “It does not matter how slowly you go as long as you do not stop.”",
+    "aliases": [
+      "Kong Qiu",
+      "Kongzi"
+    ],
+    "birth": {
+      "place": "Qufu, State of Lu (modern day Shandong, China)",
+      "year": -551,
+      "lat": 35.5867,
+      "lng": 116.9844
+    },
+    "death": {
+      "place": "Qufu, State of Lu (modern day Shandong, China)",
+      "year": -479,
+      "lat": 35.5867,
+      "lng": 116.9844
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Confucius_Tang_Dynasty.jpg/330px-Confucius_Tang_Dynasty.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Confucius_Tang_Dynasty.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Confucius_Tang_Dynasty.jpg?width=640"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name": "Buddha",
+    "gender": "man",
+    "occupation": "Spiritual teacher / Founder of Buddhism",
+    "cause_of_death": "Natural causes",
+    "blurb": "founder of Buddhism. duh..",
+    "aliases": [
+      "Siddhartha Gautama",
+      "Gautama Buddha",
+      "Shakyamuni"
+    ],
+    "birth": {
+      "place": "Lumbini, Shakya Republic (modern day Nepal)",
+      "year": -563,
+      "lat": 27.4683,
+      "lng": 83.2759
+    },
+    "death": {
+      "place": "Kushinagar, Malla Republic (modern day India)",
+      "year": -483,
+      "lat": 26.7445,
+      "lng": 83.8907
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/330px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg?width=640"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "gender": "man",
+    "occupation": "Polymath / Artist",
+    "cause_of_death": "Stroke",
+    "blurb": "Renaissance polymath who painted the Mona Lisa",
+    "aliases": [
+      "Leonardo",
+      "Leonardo di ser Piero da Vinci"
+    ],
+    "birth": {
+      "place": "Vinci, Republic of Florence",
+      "year": 1452,
+      "lat": 43.7866,
+      "lng": 10.9281
+    },
+    "death": {
+      "place": "Amboise, France",
+      "year": 1519,
+      "lat": 47.4123,
+      "lng": 0.9826
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/330px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Francesco_Melzi_-_Portrait_of_Leonardo.png?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Francesco_Melzi_-_Portrait_of_Leonardo.png?width=640"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name": "Mahatma Gandhi",
+    "gender": "man",
+    "occupation": "Political leader / Activist",
+    "cause_of_death": "Assassination",
+    "blurb": "leader of India’s nonviolent independence movement. “Be the change that you wish to see in the world.”",
+    "aliases": [
+      "Mohandas Karamchand Gandhi"
+    ],
+    "birth": {
+      "place": "Porbandar, British India",
+      "year": 1869,
+      "lat": 21.6417,
+      "lng": 69.6293
+    },
+    "death": {
+      "place": "New Delhi, India",
+      "year": 1948,
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/330px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C_studio%2C_1931.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C_studio%2C_1931.jpg?width=640"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name": "Julius Caesar",
+    "gender": "man",
+    "occupation": "Roman general / Dictator",
+    "cause_of_death": "Assassination",
+    "blurb": "Roman general and dictator, the first emperor in all but name, whose rise ended the Republic. “Veni, vidi, vici.”",
+    "aliases": [
+      "Gaius Julius Caesar",
+      "Julius"
+    ],
+    "birth": {
+      "place": "Rome, Roman Republic",
+      "year": -100,
+      "lat": 41.9028,
+      "lng": 12.4964
+    },
+    "death": {
+      "place": "Rome, Roman Republic",
+      "year": -44,
+      "lat": 41.9028,
+      "lng": 12.4964
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/330px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg?width=640"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name": "Wu Zetian",
+    "gender": "woman",
+    "occupation": "Empress of China",
+    "cause_of_death": "Illness",
+    "blurb": "only female emperor in Chinese history",
+    "aliases": [
+      "Empress Wu",
+      "Wu Zhao"
+    ],
+    "birth": {
+      "place": "Lizhou, Tang dynasty China (modern day Guangyuan)",
+      "year": 624,
+      "lat": 32.4351,
+      "lng": 105.8433
+    },
+    "death": {
+      "place": "Luoyang, Tang dynasty China",
+      "year": 705,
+      "lat": 34.6197,
+      "lng": 112.454
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png/330px-%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_(%E5%B1%80%E9%83%A8)_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_(%E5%B1%80%E9%83%A8)_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png?width=640"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name": "Anne Frank",
+    "occupation": "Diarist",
+    "cause_of_death": "Typhus",
+    "blurb": "wrote a diary from age 13 that became a symbol of the Holocaust",
+    "aliases": [
+      "Annelies Marie Frank"
+    ],
+    "difficulty": 1,
+    "birth": {
+      "place": "Frankfurt, Germany",
+      "year": 1929,
+      "lat": 50.1109,
+      "lng": 8.6821
+    },
+    "death": {
+      "place": "Bergen-Belsen, Germany",
+      "year": 1945,
+      "lat": 52.7589,
+      "lng": 9.9083
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Anne_Frank_passport_photo%2C_May_1942_%28cropped%29.jpg/330px-Anne_Frank_passport_photo%2C_May_1942_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Anne_Frank_passport_photo%2C_May_1942_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Anne_Frank_passport_photo%2C_May_1942_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Queen Victoria",
+    "occupation": "Queen of the United Kingdom",
+    "cause_of_death": "Old age",
+    "blurb": "gave her name to an era, ruling Britain for over 60 years",
+    "aliases": [
+      "Alexandrina Victoria"
+    ],
+    "difficulty": 1,
+    "birth": {
+      "place": "Kensington Palace, London, England",
+      "year": 1819,
+      "lat": 51.5053,
+      "lng": -0.1874
+    },
+    "death": {
+      "place": "Osborne House, Isle of Wight, England",
+      "year": 1901,
+      "lat": 50.7508,
+      "lng": -1.266
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/330px-Queen_Victoria_by_Bassano.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Victoria_by_Bassano.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Victoria_by_Bassano.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Catherine the Great",
+    "occupation": "Empress of Russia",
+    "cause_of_death": "Stroke",
+    "blurb": "empress who modernized Russia and expanded its empire",
+    "aliases": [
+      "Catherine II",
+      "Sophie von Anhalt-Zerbst"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Stettin, Kingdom of Prussia (modern day Szczecin, Poland)",
+      "year": 1729,
+      "lat": 53.4285,
+      "lng": 14.5528
+    },
+    "death": {
+      "place": "Saint Petersburg, Russia",
+      "year": 1796,
+      "lat": 59.9343,
+      "lng": 30.3351
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29.jpg/330px-Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Catherine_II_after_Roslin%2C_Rokotov_(1780s%2C_Kunsthistorisches_Museum).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Catherine_II_after_Roslin%2C_Rokotov_(1780s%2C_Kunsthistorisches_Museum).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Eva Braun",
+    "occupation": "Photographer / Companion of Hitler",
+    "cause_of_death": "Suicide",
+    "blurb": "Hitler's companion, whom he married hours before their deaths",
+    "aliases": [],
+    "difficulty": 3,
+    "birth": {
+      "place": "Munich, Germany",
+      "year": 1912,
+      "lat": 48.1351,
+      "lng": 11.582
+    },
+    "death": {
+      "place": "Berlin, Germany",
+      "year": 1945,
+      "lat": 52.52,
+      "lng": 13.405
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Eva_Braun_portrait_-_1_of_3_%28242-EB-26-01%29.jpg/330px-Eva_Braun_portrait_-_1_of_3_%28242-EB-26-01%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Eva_Braun_portrait_-_1_of_3_(242-EB-26-01).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Eva_Braun_portrait_-_1_of_3_(242-EB-26-01).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Mata Hari",
+    "occupation": "Dancer / Spy",
+    "cause_of_death": "Execution",
+    "blurb": "exotic dancer executed as a spy in World War I",
+    "aliases": [
+      "Margaretha Zelle",
+      "Margaretha Geertruida Zelle"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Leeuwarden, Netherlands",
+      "year": 1876,
+      "lat": 53.2012,
+      "lng": 5.7999
+    },
+    "death": {
+      "place": "Vincennes, France",
+      "year": 1917,
+      "lat": 48.8478,
+      "lng": 2.4398
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/MataHari15.jpg/330px-MataHari15.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/MataHari15.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/MataHari15.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Mother Teresa",
+    "occupation": "Nun / Missionary",
+    "cause_of_death": "Old age",
+    "blurb": "Catholic nun who devoted her life to the poor of Calcutta",
+    "aliases": [
+      "Saint Teresa of Calcutta",
+      "Anjeze Gonxhe Bojaxhiu"
+    ],
+    "difficulty": 1,
+    "birth": {
+      "place": "Üsküp, Ottoman Empire (modern day Skopje, North Macedonia)",
+      "year": 1910,
+      "lat": 41.9973,
+      "lng": 21.428
+    },
+    "death": {
+      "place": "Kolkata, India",
+      "year": 1997,
+      "lat": 22.5726,
+      "lng": 88.3639
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/330px-Mother_Teresa_1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mother_Teresa_1.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mother_Teresa_1.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Mary Shelley",
+    "occupation": "Novelist",
+    "cause_of_death": "Illness",
+    "blurb": "wrote Frankenstein at 18, inventing science fiction",
+    "aliases": [
+      "Mary Wollstonecraft Shelley"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "London, England",
+      "year": 1797,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "death": {
+      "place": "London, England",
+      "year": 1851,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Mary_Wollstonecraft_Shelley_Rothwell.tif/lossy-page1-330px-Mary_Wollstonecraft_Shelley_Rothwell.tif.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_Wollstonecraft_Shelley_Rothwell.tif?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_Wollstonecraft_Shelley_Rothwell.tif?width=640"
+    ]
+  },
+  {
+    "name": "Rosa Parks",
+    "occupation": "Civil rights activist",
+    "cause_of_death": "Natural causes",
+    "blurb": "refused to give up her bus seat, sparking the Montgomery bus boycott",
+    "aliases": [],
+    "difficulty": 1,
+    "birth": {
+      "place": "Tuskegee, Alabama, USA",
+      "year": 1913,
+      "lat": 32.4311,
+      "lng": -85.7079
+    },
+    "death": {
+      "place": "Detroit, Michigan, USA",
+      "year": 2005,
+      "lat": 42.3314,
+      "lng": -83.0458
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rosa_Parks%2C_November_1956_%28cropped%29.jpg/330px-Rosa_Parks%2C_November_1956_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_Parks%2C_November_1956_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_Parks%2C_November_1956_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Jane Austen",
+    "occupation": "Novelist",
+    "cause_of_death": "Illness",
+    "blurb": "wrote Pride and Prejudice and Sense and Sensibility",
+    "aliases": [],
+    "difficulty": 2,
+    "birth": {
+      "place": "Steventon, Hampshire, England",
+      "year": 1775,
+      "lat": 51.229,
+      "lng": -1.3166
+    },
+    "death": {
+      "place": "Winchester, England",
+      "year": 1817,
+      "lat": 51.0598,
+      "lng": -1.3105
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CassandraAusten-JaneAusten%28c.1810%29_hires.jpg/330px-CassandraAusten-JaneAusten%28c.1810%29_hires.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/CassandraAusten-JaneAusten(c.1810)_hires.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/CassandraAusten-JaneAusten(c.1810)_hires.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Queen Elizabeth I",
+    "occupation": "Queen of England",
+    "cause_of_death": "Natural causes",
+    "blurb": "the Virgin Queen who ruled England in its golden age",
+    "aliases": [
+      "Elizabeth Tudor",
+      "Good Queen Bess"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Greenwich, London, England",
+      "year": 1533,
+      "lat": 51.4826,
+      "lng": -0.0077
+    },
+    "death": {
+      "place": "Richmond, London, England",
+      "year": 1603,
+      "lat": 51.463,
+      "lng": -0.308
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/330px-Darnley_stage_3.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Darnley_stage_3.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Darnley_stage_3.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Eleanor of Aquitaine",
+    "occupation": "Queen of France and England",
+    "cause_of_death": "Old age",
+    "blurb": "queen of France and then England, a medieval powerbroker",
+    "aliases": [],
+    "difficulty": 3,
+    "birth": {
+      "place": "Poitiers, Duchy of Aquitaine",
+      "year": 1122,
+      "lat": 46.5802,
+      "lng": 0.3404
+    },
+    "death": {
+      "place": "Fontevraud Abbey, Anjou",
+      "year": 1204,
+      "lat": 47.1812,
+      "lng": 0.0513
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Church_of_Fontevraud_Abbey_Eleanor_of_Aquitaine_effigy.jpg/330px-Church_of_Fontevraud_Abbey_Eleanor_of_Aquitaine_effigy.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_Fontevraud_Abbey_Eleanor_of_Aquitaine_effigy.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_Fontevraud_Abbey_Eleanor_of_Aquitaine_effigy.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Simone de Beauvoir",
+    "occupation": "Philosopher / Writer",
+    "cause_of_death": "Old age",
+    "blurb": "wrote The Second Sex, a cornerstone of feminism",
+    "aliases": [],
+    "difficulty": 3,
+    "birth": {
+      "place": "Paris, France",
+      "year": 1908,
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "death": {
+      "place": "Paris, France",
+      "year": 1986,
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Simone_De_Beauvoir_%28cropped%29.jpg/330px-Simone_De_Beauvoir_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Simone_De_Beauvoir_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Simone_De_Beauvoir_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Marie Antoinette",
+    "occupation": "Queen of France",
+    "cause_of_death": "Execution",
+    "blurb": "last queen of France before the Revolution",
+    "aliases": [
+      "Maria Antonia of Austria"
+    ],
+    "difficulty": 1,
+    "birth": {
+      "place": "Vienna, Archduchy of Austria",
+      "year": 1755,
+      "lat": 48.2082,
+      "lng": 16.3738
+    },
+    "death": {
+      "place": "Paris, France",
+      "year": 1793,
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg/330px-Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Ada Lovelace",
+    "occupation": "Mathematician / Writer",
+    "cause_of_death": "Cancer",
+    "blurb": "wrote the first computer program a century before computers existed",
+    "aliases": [
+      "Augusta Ada Byron",
+      "Countess of Lovelace"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "London, England",
+      "year": 1815,
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "death": {
+      "place": "Marylebone, London, England",
+      "year": 1852,
+      "lat": 51.5225,
+      "lng": -0.1504
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png/330px-Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png?width=640"
+    ]
+  },
+  {
+    "name": "Mary Queen of Scots",
+    "occupation": "Queen of Scotland",
+    "cause_of_death": "Execution",
+    "blurb": "Catholic queen of Scotland executed by her cousin Elizabeth I",
+    "aliases": [
+      "Mary Stuart",
+      "Mary I of Scotland"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Linlithgow, Scotland",
+      "year": 1542,
+      "lat": 55.9785,
+      "lng": -3.602
+    },
+    "death": {
+      "place": "Fotheringhay, England",
+      "year": 1587,
+      "lat": 52.5253,
+      "lng": -0.4366
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_%281542-87%29_-_Google_Art_Project.jpg/330px-Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_%281542-87%29_-_Google_Art_Project.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_(1542-87)_-_Google_Art_Project.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_(1542-87)_-_Google_Art_Project.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Grace O'Malley",
+    "occupation": "Pirate / Chieftain",
+    "cause_of_death": "Unknown",
+    "blurb": "Irish pirate queen who raided English ships and met Elizabeth I",
+    "aliases": [
+      "Granuaile",
+      "Graine Mhaol"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Clew Bay, Gaelic Ireland (modern day County Mayo)",
+      "year": 1530,
+      "lat": 53.8008,
+      "lng": -9.7034
+    },
+    "death": {
+      "place": "Rockfleet Castle, County Mayo, Ireland",
+      "year": 1603,
+      "lat": 53.9697,
+      "lng": -9.6333
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Grainne_Mhaol_Ni_Mhaille_Statue.jpg/330px-Grainne_Mhaol_Ni_Mhaille_Statue.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Grainne_Mhaol_Ni_Mhaille_Statue.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Grainne_Mhaol_Ni_Mhaille_Statue.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Zheng Yi Sao",
+    "occupation": "Pirate / Fleet commander",
+    "cause_of_death": "Natural causes",
+    "blurb": "commanded a pirate fleet of over 1,800 ships off southern China",
+    "aliases": [
+      "Cheng I Sao",
+      "Shi Yang"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Xinhui County, Guangdong, Qing dynasty China",
+      "year": 1775,
+      "lat": 22.52,
+      "lng": 113.05
+    },
+    "death": {
+      "place": "Nanhai, Guangdong, Qing dynasty China",
+      "year": 1844,
+      "lat": 23.03,
+      "lng": 113.14
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E9%84%AD%E4%B8%80%E5%AB%82.jpg/330px-%E9%84%AD%E4%B8%80%E5%AB%82.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%84%AD%E4%B8%80%E5%AB%82.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%84%AD%E4%B8%80%E5%AB%82.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Nzinga of Ndongo and Matamba",
+    "occupation": "Queen of Ndongo and Matamba",
+    "cause_of_death": "Old age",
+    "blurb": "queen who resisted Portuguese colonization of Angola for decades",
+    "aliases": [
+      "Queen Nzinga",
+      "Nzinga Mbande"
+    ],
+    "difficulty": 5,
+    "birth": {
+      "place": "Kabasa, Kingdom of Ndongo (modern day Angola)",
+      "year": 1583,
+      "lat": -9.54,
+      "lng": 16.34
+    },
+    "death": {
+      "place": "Matamba, Kingdom of Matamba (modern day Angola)",
+      "year": 1663,
+      "lat": -8.8,
+      "lng": 16.9
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Ann_Zingha.jpg/330px-Ann_Zingha.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ann_Zingha.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ann_Zingha.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Tarabai",
+    "occupation": "Regent of the Maratha Empire",
+    "cause_of_death": "Old age",
+    "blurb": "Maratha queen who led her empire's war against the Mughals",
+    "aliases": [
+      "Maharani Tarabai"
+    ],
+    "difficulty": 5,
+    "birth": {
+      "place": "Maharashtra, Maratha Empire",
+      "year": 1675,
+      "lat": 17.6874,
+      "lng": 74.0054
+    },
+    "death": {
+      "place": "Kolhapur, Maratha Empire",
+      "year": 1761,
+      "lat": 16.705,
+      "lng": 74.2433
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tarabai.jpg/330px-Tarabai.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tarabai.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tarabai.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Pocahontas",
+    "occupation": "Powhatan diplomat",
+    "cause_of_death": "Illness",
+    "blurb": "Powhatan woman who bridged the worlds of Jamestown and England",
+    "aliases": [
+      "Matoaka",
+      "Rebecca Rolfe"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Werowocomoco, Powhatan chiefdom (modern day Virginia, USA)",
+      "year": 1596,
+      "lat": 37.3033,
+      "lng": -76.7831
+    },
+    "death": {
+      "place": "Gravesend, England",
+      "year": 1617,
+      "lat": 51.4417,
+      "lng": 0.3696
+    },
+    "gender": "woman",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Pocahontas_by_Simon_van_de_Passe_%281616%29.png/330px-Pocahontas_by_Simon_van_de_Passe_%281616%29.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pocahontas_by_Simon_van_de_Passe_(1616).png?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pocahontas_by_Simon_van_de_Passe_(1616).png?width=640"
+    ]
+  },
+  {
+    "name": "Che Guevara",
+    "gender": "man",
+    "occupation": "Revolutionary / Guerrilla leader",
+    "cause_of_death": "Execution",
+    "blurb": "Argentine revolutionary who helped lead the Cuban Revolution. “Hasta la victoria siempre!”",
+    "aliases": [
+      "Ernesto Guevara",
+      "Ernesto Che Guevara"
+    ],
+    "difficulty": 1,
+    "birth": {
+      "place": "Rosario, Santa Fe, Argentina",
+      "year": 1928,
+      "lat": -32.9468,
+      "lng": -60.6393
+    },
+    "death": {
+      "place": "La Higuera, Bolivia",
+      "year": 1967,
+      "lat": -18.7238,
+      "lng": -64.3085
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg/330px-Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Ayrton Senna",
+    "gender": "man",
+    "occupation": "Formula One racing driver",
+    "cause_of_death": "Racing accident",
+    "blurb": "Formula One legend who won three world championships. “If you no longer go for a gap that exists, you are no longer a racing driver.”",
+    "aliases": [
+      "Ayrton Senna da Silva"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "São Paulo, Brazil",
+      "year": 1960,
+      "lat": -23.5505,
+      "lng": -46.6333
+    },
+    "death": {
+      "place": "Imola, Italy",
+      "year": 1994,
+      "lat": 44.3417,
+      "lng": 11.7137
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ayrton_Senna_Pesawat_RC_Cropped.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ayrton_Senna_Pesawat_RC_Cropped.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ayrton_Senna_Pesawat_RC_Cropped.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Evita",
+    "gender": "woman",
+    "occupation": "First Lady of Argentina",
+    "cause_of_death": "Cancer",
+    "blurb": "First Lady of Argentina and champion of the poor, immortalized in the musical Evita",
+    "aliases": [
+      "Eva Perón",
+      "Eva Duarte de Perón"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Los Toldos, Argentina",
+      "year": 1919,
+      "lat": -34.9969,
+      "lng": -61.0629
+    },
+    "death": {
+      "place": "Buenos Aires, Argentina",
+      "year": 1952,
+      "lat": -34.6037,
+      "lng": -58.3816
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Evita_color.jpg/330px-Evita_color.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Evita_color.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Evita_color.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Empress Elisabeth of Austria",
+    "gender": "woman",
+    "occupation": "Empress of Austria",
+    "cause_of_death": "Assassination",
+    "blurb": "Empress of Austria and Queen of Hungary, celebrated for her beauty",
+    "aliases": [
+      "Sisi",
+      "Sissi",
+      "Elisabeth of Bavaria"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Munich, Kingdom of Bavaria",
+      "year": 1837,
+      "lat": 48.1351,
+      "lng": 11.582
+    },
+    "death": {
+      "place": "Geneva, Switzerland",
+      "year": 1898,
+      "lat": 46.2044,
+      "lng": 6.1432
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Isabel_da_%C3%81ustria_1867.jpg/330px-Isabel_da_%C3%81ustria_1867.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Isabel_da_%C3%81ustria_1867.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Isabel_da_%C3%81ustria_1867.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Grace Kelly",
+    "gender": "woman",
+    "occupation": "Actress / Princess of Monaco",
+    "cause_of_death": "Car accident",
+    "blurb": "Hollywood actress who married into Monaco's royal family",
+    "aliases": [
+      "Grace Patricia Kelly",
+      "Princess Grace of Monaco"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Philadelphia, Pennsylvania, USA",
+      "year": 1929,
+      "lat": 39.9526,
+      "lng": -75.1652
+    },
+    "death": {
+      "place": "Monaco",
+      "year": 1982,
+      "lat": 43.7384,
+      "lng": 7.4246
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Grace_Kelly_1955.jpg/330px-Grace_Kelly_1955.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Grace_Kelly_1955.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Grace_Kelly_1955.jpg?width=640"
+    ]
+  }
+]

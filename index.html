@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mortle — Guess the Historical Figure</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <h1>Mortle</h1>
+    <p class="tagline">Guess the historical figure from where they lived and died</p>
+  </div>
+  <div class="stats">
+    <span class="stat"><span class="stat-label">Round</span><strong id="roundLabel">–</strong></span>
+    <span class="stat"><span class="stat-label">Score</span><strong id="scoreLabel">0</strong></span>
+    <span class="stat"><span class="stat-label">Streak</span><strong id="streakLabel">0</strong></span>
+    <span class="stat"><span class="stat-label">Difficulty</span><strong id="diffLabel">5</strong></span>
+    <button id="statsBtn" class="stat-btn" type="button" title="View your lifetime stats">Stats</button>
+  </div>
+</header>
+
+<main class="layout">
+  <div id="loadError" class="panel error hidden" role="alert"></div>
+
+  <section id="difficultySection" class="panel difficulty" aria-label="Difficulty">
+    <div class="difficulty-head">
+      <label for="difficultySlider">Max difficulty</label>
+      <span id="difficultyValue" class="difficulty-value">5</span>
+    </div>
+    <input type="range" id="difficultySlider" min="1" max="5" step="1" value="5" />
+    <p class="difficulty-note">Changing the difficulty reshuffles the current game.</p>
+  </section>
+
+  <section class="map-wrap">
+    <div id="map" aria-label="World map"></div>
+    <button id="resetView" type="button" title="Reset view">&#8635;</button>
+    <div class="legend">
+      <span><i class="dot dot-birth"></i>Birth</span>
+      <span><i class="dot dot-death"></i>Death</span>
+    </div>
+  </section>
+
+  <section id="gamePanel" class="panel hidden">
+    <form id="guessForm" autocomplete="off" novalidate>
+      <label class="sr-only" for="guessInput">Your guess</label>
+      <input id="guessInput" type="text" placeholder="Who was this historical figure?" spellcheck="false" autocomplete="off" />
+      <button type="submit">Guess</button>
+    </form>
+    <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+    <button id="skipBtn" type="button" class="link-btn">Stuck? Reveal the answer</button>
+  </section>
+
+  <section id="revealPanel" class="panel hidden">
+    <div class="reveal-card">
+      <div class="portrait">
+        <img id="portrait" alt="Portrait" hidden />
+        <div id="portraitFallback" class="portrait-fallback" hidden></div>
+      </div>
+      <div class="reveal-info">
+        <p id="revealStatus" class="reveal-status"></p>
+        <h2 id="revealName"></h2>
+        <p id="revealAliases" class="aliases"></p>
+        <p id="revealMeta" class="subtitle"></p>
+        <dl class="facts">
+          <div><dt>Occupation</dt><dd id="revealOccupation"></dd></div>
+          <div><dt>Cause of death</dt><dd id="revealCod"></dd></div>
+          <div><dt>Born</dt><dd id="revealBirth"></dd></div>
+          <div><dt>Died</dt><dd id="revealDeath"></dd></div>
+          <div><dt>Age at death</dt><dd id="revealAge"></dd></div>
+        </dl>
+        <p id="roundPoints" class="round-points"></p>
+        <button id="nextBtn" type="button">Next round</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="resultsPanel" class="panel hidden">
+    <h2 id="resultsTitle"></h2>
+    <p id="resultsScore" class="results-score"></p>
+    <dl class="facts results-facts">
+      <div><dt>Best streak</dt><dd id="bestStreak"></dd></div>
+      <div><dt>Games played</dt><dd id="gamesPlayed"></dd></div>
+      <div><dt>Lifetime points</dt><dd id="lifetimePoints"></dd></div>
+      <div><dt>Total correct</dt><dd id="totalCorrect"></dd></div>
+    </dl>
+    <button id="playAgainBtn" type="button">Play again</button>
+  </section>
+</main>
+
+<div id="statsModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Your stats">
+  <div class="modal-card">
+    <div class="modal-head">
+      <h2>Your stats</h2>
+      <button id="statsClose" class="modal-close" type="button" aria-label="Close">&#10005;</button>
+    </div>
+    <dl class="facts">
+      <div><dt>Current score</dt><dd id="modalScore"></dd></div>
+      <div><dt>Best streak</dt><dd id="modalBestStreak"></dd></div>
+      <div><dt>Games played</dt><dd id="modalGamesPlayed"></dd></div>
+      <div><dt>Lifetime points</dt><dd id="modalLifetimePoints"></dd></div>
+      <div><dt>Total correct</dt><dd id="modalTotalCorrect"></dd></div>
+    </dl>
+  </div>
+</div>
+
+<footer class="attribution">
+  Map &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors &copy;
+  <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> &middot;
+  Portraits &copy; their original uploaders via Wikimedia Commons
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
