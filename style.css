@@ -12,6 +12,19 @@
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
+/* Girlypop mode: pink accent instead of green, purple instead of red */
+body.girlypop {
+  --green: #f07eb6;
+  --accent: #f07eb6;
+  --red: #a871c8;
+}
+body.girlypop .dot-birth { box-shadow: 0 0 0 3px rgba(240, 126, 182, 0.35); }
+body.girlypop .dot-death { box-shadow: 0 0 0 3px rgba(168, 113, 200, 0.35); }
+body.girlypop #guessInput:focus { box-shadow: 0 0 0 3px rgba(240, 126, 182, 0.25); }
+body.girlypop .portrait-fallback { background: linear-gradient(135deg, var(--accent), #b0578e); }
+body.girlypop .fig-label-birth { color: #f07eb6; }
+body.girlypop .fig-label-death { color: #b790d8; }
+
 * { box-sizing: border-box; }
 
 html, body { margin: 0; padding: 0; }

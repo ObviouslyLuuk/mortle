@@ -215,7 +215,7 @@
   }
 
   function addMarker(latlng, kind, label, direction) {
-    const color = kind === 'birth' ? '#35c05f' : '#e5524b';
+    const color = kind === 'birth' ? (girlypop ? '#f07eb6' : '#35c05f') : (girlypop ? '#a871c8' : '#e5524b');
     L.circleMarker(latlng, {
       radius: 15, color, weight: 2.5, fillColor: color, fillOpacity: 0.12,
     }).addTo(map);
@@ -575,6 +575,7 @@
   // Girlypop mode: women only, and there aren't enough difficulty-1 women,
   // so the minimum difficulty becomes 2.
   function applyGirlypopUi() {
+    document.body.classList.toggle('girlypop', girlypop);
     els.girlypopToggle.checked = girlypop;
     els.difficultySlider.min = girlypop ? '2' : '1';
     if (girlypop) show(els.girlypopNote);

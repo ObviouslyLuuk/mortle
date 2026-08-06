@@ -691,7 +691,7 @@
   {
     "name": "Adolf Hitler",
     "gender": "man",
-    "occupation": "Dictator / Politician",
+    "occupation": "Dictator",
     "cause_of_death": "Suicide",
     "blurb": "you know who this is..",
     "aliases": [],
@@ -2408,7 +2408,7 @@
     "gender": "woman",
     "occupation": "Prime Minister of India",
     "cause_of_death": "Assassinated by gunshot",
-    "blurb": "India's first female prime minister, who won the 1971 war that created Bangladesh and is not related to Mahatma Gandhi",
+    "blurb": "India's first female prime minister, who won the 1971 war that created Bangladesh. Not related to Mahatma Gandhi",
     "aliases": [
       "Indira Priyadarshini Gandhi"
     ],
@@ -2547,13 +2547,13 @@
     ]
   },
   {
-    "name": "Leonidas I",
+    "name": "King Leonidas",
     "gender": "man",
     "occupation": "King of Sparta",
     "cause_of_death": "Killed at the Battle of Thermopylae",
     "blurb": "Spartan king who held the pass at Thermopylae against the Persians with just 300 men",
     "aliases": [
-      "Leonidas"
+      "Leonidas I"
     ],
     "difficulty": 2,
     "birth": {
