@@ -1369,7 +1369,11 @@
     "blurb": "commanded a pirate fleet of over 1,800 ships off southern China",
     "aliases": [
       "Cheng I Sao",
-      "Shi Yang"
+      "Ching Shih",
+      "Quing Shi",
+      "Shi Yang",
+      "Shi Xianggu", 
+      "Shek Yeung"
     ],
     "difficulty": 4,
     "birth": {
@@ -2175,7 +2179,7 @@
     "gender": "man",
     "occupation": "Conquistador",
     "cause_of_death": "Illness",
-    "blurb": "Spanish conquistador who toppled the Mexica-Nahua Coalition (externally referred to as the Aztec Empire)",
+    "blurb": "Spanish conquistador who toppled the Mexica (externally referred to as the Aztec Empire)",
     "aliases": [
       "Hernándo Cortés"
     ],
@@ -2369,6 +2373,234 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Mikola_II_%28cropped%29-2.jpg/330px-Mikola_II_%28cropped%29-2.jpg",
       "https://commons.wikimedia.org/wiki/Special:FilePath/Mikola_II_(cropped)-2.jpg?width=320",
       "https://commons.wikimedia.org/wiki/Special:FilePath/Mikola_II_(cropped)-2.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Harriet Tubman",
+    "gender": "woman",
+    "occupation": "Abolitionist",
+    "cause_of_death": "Pneumonia",
+    "blurb": "American abolitionist who escaped slavery and led hundreds to freedom on the Underground Railroad",
+    "aliases": [
+      "Araminta Ross"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Dorchester County, Maryland, United States",
+      "year": 1822,
+      "lat": 38.42,
+      "lng": -76.08
+    },
+    "death": {
+      "place": "Auburn, New York, United States",
+      "year": 1913,
+      "lat": 42.9311,
+      "lng": -76.5661
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Carte-de-visite_portrait_of_Harriet_Tubman_%28cropped%29.jpg/330px-Carte-de-visite_portrait_of_Harriet_Tubman_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Indira Gandhi",
+    "gender": "woman",
+    "occupation": "Prime Minister of India",
+    "cause_of_death": "Assassinated by gunshot",
+    "blurb": "India's first female prime minister, who won the 1971 war that created Bangladesh and is not related to Mahatma Gandhi",
+    "aliases": [
+      "Indira Priyadarshini Gandhi"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Allahabad, British India (modern day Prayagraj, India)",
+      "year": 1917,
+      "lat": 25.4358,
+      "lng": 81.8463
+    },
+    "death": {
+      "place": "New Delhi, India",
+      "year": 1984,
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Indira_Gandhi_official_portrait.png/330px-Indira_Gandhi_official_portrait.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_official_portrait.png?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Indira_Gandhi_official_portrait.png?width=640"
+    ]
+  },
+  {
+    "name": "Nicolaus Copernicus",
+    "gender": "man",
+    "occupation": "Astronomer / Polymath",
+    "cause_of_death": "Stroke",
+    "blurb": "Renaissance astronomer who put the Sun at the center of the universe",
+    "aliases": [
+      "Mikołaj Kopernik",
+      "Nikolaus Kopernikus"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Toruń, Kingdom of Poland",
+      "year": 1473,
+      "lat": 53.0138,
+      "lng": 18.5984
+    },
+    "death": {
+      "place": "Frombork, Kingdom of Poland",
+      "year": 1543,
+      "lat": 54.3576,
+      "lng": 19.678
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/330px-Nikolaus_Kopernikus_MOT.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Nikolaus_Kopernikus_MOT.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Nikolaus_Kopernikus_MOT.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Moctezuma Xocoyotzin",
+    "gender": "man",
+    "occupation": "Emperor of the Mexica",
+    "cause_of_death": "Killed during the siege of Tenochtitlan",
+    "blurb": "Mexica emperor during the Spanish conquest, met by Hernán Cortés in Tenochtitlan",
+    "aliases": [
+      "Moctezuma II",
+      "Montezuma",
+      "Montezuma II"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Tenochtitlan, Mexica territory (modern day Mexico City, Mexico)",
+      "year": 1466,
+      "lat": 19.4326,
+      "lng": -99.1332
+    },
+    "death": {
+      "place": "Tenochtitlan, Mexica territory (modern day Mexico City, Mexico)",
+      "year": 1520,
+      "lat": 19.4326,
+      "lng": -99.1332
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Moctezuma_Mendoza.jpg/330px-Moctezuma_Mendoza.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Moctezuma_Mendoza.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Moctezuma_Mendoza.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Archimedes",
+    "gender": "man",
+    "occupation": "Mathematician / Inventor",
+    "cause_of_death": "Killed during the Siege of Syracuse",
+    "blurb": "ancient Greek mathematician who made war machines and discovered the principle of buoyancy. \"Eureka!\"",
+    "aliases": [
+      "Archimedes of Syracuse"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Syracuse, Magna Graecia (modern day Sicily, Italy)",
+      "year": -287,
+      "lat": 37.0755,
+      "lng": 15.2866
+    },
+    "death": {
+      "place": "Syracuse, Magna Graecia (modern day Sicily, Italy)",
+      "year": -212,
+      "lat": 37.0755,
+      "lng": 15.2866
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domenico-Fetti_Archimedes_1620.jpg/330px-Domenico-Fetti_Archimedes_1620.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Domenico-Fetti_Archimedes_1620.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Domenico-Fetti_Archimedes_1620.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Maximilien Robespierre",
+    "gender": "man",
+    "occupation": "Revolutionary / Leader of the Reign of Terror",
+    "cause_of_death": "Guillotined",
+    "blurb": "leading figure of the French Revolution who oversaw the Reign of Terror",
+    "aliases": [
+      "Robespierre"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Arras, Kingdom of France",
+      "year": 1758,
+      "lat": 50.291,
+      "lng": 2.7776
+    },
+    "death": {
+      "place": "Paris, France",
+      "year": 1794,
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Robespierre.jpg/330px-Robespierre.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Robespierre.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Robespierre.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Leonidas I",
+    "gender": "man",
+    "occupation": "King of Sparta",
+    "cause_of_death": "Killed at the Battle of Thermopylae",
+    "blurb": "Spartan king who held the pass at Thermopylae against the Persians with just 300 men",
+    "aliases": [
+      "Leonidas"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Sparta, Ancient Greece (modern day Greece)",
+      "year": -540,
+      "lat": 37.0752,
+      "lng": 22.4292
+    },
+    "death": {
+      "place": "Thermopylae, Ancient Greece (modern day Greece)",
+      "year": -480,
+      "lat": 38.7959,
+      "lng": 22.5376
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Helmed_Hoplite_Sparta.JPG/330px-Helmed_Hoplite_Sparta.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Helmed_Hoplite_Sparta.JPG?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Helmed_Hoplite_Sparta.JPG?width=640"
+    ]
+  },
+  {
+    "name": "Harold Godwinson",
+    "gender": "man",
+    "occupation": "King of England",
+    "cause_of_death": "Arrow in the eye",
+    "blurb": "the last Anglo-Saxon king of England, killed at the Battle of Hastings in 1066",
+    "aliases": [
+      "Harold II",
+      "Harold Godwineson"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Wessex, England",
+      "year": 1022,
+      "lat": 51.1,
+      "lng": -1.5
+    },
+    "death": {
+      "place": "Hastings, England",
+      "year": 1066,
+      "lat": 50.9146,
+      "lng": 0.4844
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bayeux_tapestry_stitches_detail..jpg/330px-Bayeux_tapestry_stitches_detail..jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_tapestry_stitches_detail..jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_tapestry_stitches_detail..jpg?width=640"
     ]
   }
 ]
