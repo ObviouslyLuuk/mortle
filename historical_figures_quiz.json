@@ -3,7 +3,7 @@
     "name": "Napoleon Bonaparte",
     "gender": "man",
     "occupation": "Military Leader / Emperor",
-    "cause_of_death": "Illness",
+    "cause_of_death": "Stomach cancer",
     "birth": {
       "place": "Ajaccio, Corsica, France",
       "year": 1769,
@@ -52,7 +52,6 @@
     ],
     "aliases": [
       "Cristoforo Colombo",
-      "Cristobal Colon",
       "Cristobal Colón"
     ],
     "blurb": "explorer credited with reaching the Americas in 1492",
@@ -62,7 +61,7 @@
     "name": "Marie Curie",
     "gender": "woman",
     "occupation": "Physicist / Chemist",
-    "cause_of_death": "Radiation",
+    "cause_of_death": "Radiation poisoning",
     "birth": {
       "place": "Warsaw, Russian Empire (modern day Poland)",
       "year": 1867,
@@ -81,7 +80,6 @@
       "https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c._1920s.jpg?width=640"
     ],
     "aliases": [
-      "Maria Sklodowska-Curie",
       "Maria Skłodowska-Curie"
     ],
     "blurb": "pioneer of radioactivity who discovered polonium and radium. “Nothing in life is to be feared, it is only to be understood.”",
@@ -91,7 +89,7 @@
     "name": "Freddie Mercury",
     "gender": "man",
     "occupation": "Singer / Songwriter",
-    "cause_of_death": "Illness",
+    "cause_of_death": "Bronchopneumonia (AIDS-related)",
     "birth": {
       "place": "Stone Town, Zanzibar, British protectorate (modern day Tanzania)",
       "year": 1946,
@@ -174,7 +172,7 @@
     "name": "Ernest Hemingway",
     "gender": "man",
     "occupation": "Author / Journalist",
-    "cause_of_death": "Suicide",
+    "cause_of_death": "Suicide by gunshot",
     "birth": {
       "place": "Oak Park, Illinois, USA",
       "year": 1899,
@@ -194,7 +192,7 @@
     ],
     "aliases": [],
     "blurb": "wrote The Old Man and the Sea and A Farewell to Arms",
-    "difficulty": 1
+    "difficulty": 4
   },
   {
     "name": "Cleopatra",
@@ -248,17 +246,16 @@
       "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_Neruda_1963.jpg?width=640"
     ],
     "aliases": [
-      "Neftali Ricardo Reyes Basoalto",
       "Neftalí Ricardo Reyes Basoalto"
     ],
     "blurb": "Chilean poet who won the Nobel Prize in Literature",
-    "difficulty": 2
+    "difficulty": 5
   },
   {
     "name": "Sigmund Freud",
     "gender": "man",
     "occupation": "Psychoanalyst / Neurologist",
-    "cause_of_death": "Euthanasia",
+    "cause_of_death": "Euthanasia (morphine overdose)",
     "birth": {
       "place": "Freiberg in Mähren, Austrian Empire (modern day Příbor, Czech Republic)",
       "year": 1856,
@@ -313,7 +310,7 @@
     "name": "Frida Kahlo",
     "gender": "woman",
     "occupation": "Painter",
-    "cause_of_death": "Embolism",
+    "cause_of_death": "Pulmonary embolism",
     "birth": {
       "place": "Coyoacán, Mexico City, Mexico",
       "year": 1907,
@@ -365,7 +362,7 @@
     "name": "Leon Trotsky",
     "gender": "man",
     "occupation": "Revolutionary / Politician",
-    "cause_of_death": "Assassination",
+    "cause_of_death": "Assassinated with an ice axe",
     "birth": {
       "place": "Yanovka, Russian Empire (modern day Ukraine)",
       "year": 1879,
@@ -420,7 +417,7 @@
     "name": "Vincent van Gogh",
     "gender": "man",
     "occupation": "Painter",
-    "cause_of_death": "Suicide",
+    "cause_of_death": "Suicide by gunshot",
     "birth": {
       "place": "Zundert, Netherlands",
       "year": 1853,
@@ -529,7 +526,7 @@
     "name": "James Cook",
     "gender": "man",
     "occupation": "Explorer / Navigator",
-    "cause_of_death": "Homicide",
+    "cause_of_death": "Stabbed",
     "birth": {
       "place": "Marton, England",
       "year": 1728,
@@ -555,7 +552,7 @@
     "name": "John F. Kennedy",
     "gender": "man",
     "occupation": "Politician / 35th U.S. President",
-    "cause_of_death": "Assassination",
+    "cause_of_death": "Assassinated by gunshot",
     "blurb": "35th President of the United States, assassinated in 1963",
     "aliases": [
       "JFK",
@@ -585,7 +582,7 @@
     "gender": "woman",
     "occupation": "Member of the British royal family",
     "cause_of_death": "Car accident",
-    "blurb": "Princess of Wales, one of the most photographed women in the world",
+    "blurb": "Princess of Wales, the hugely popular ‘People’s Princess’ known for her humanitarian work",
     "aliases": [
       "Diana, Princess of Wales",
       "Lady Diana Spencer",
@@ -721,7 +718,7 @@
     "name": "Saladin",
     "gender": "man",
     "occupation": "Sultan of Egypt and Syria / Military leader",
-    "cause_of_death": "Illness",
+    "cause_of_death": "Typhoid",
     "blurb": "Muslim sultan who defeated the Crusaders and recaptured Jerusalem",
     "aliases": [
       "Salah ad-Din",
@@ -838,7 +835,7 @@
     "name": "Mahatma Gandhi",
     "gender": "man",
     "occupation": "Political leader / Activist",
-    "cause_of_death": "Assassination",
+    "cause_of_death": "Assassinated by gunshot",
     "blurb": "leader of India’s nonviolent independence movement. “Be the change that you wish to see in the world.”",
     "aliases": [
       "Mohandas Karamchand Gandhi"
@@ -866,7 +863,7 @@
     "name": "Julius Caesar",
     "gender": "man",
     "occupation": "Roman general / Dictator",
-    "cause_of_death": "Assassination",
+    "cause_of_death": "Assassinated by stabbing",
     "blurb": "Roman general and dictator, the first emperor in all but name, whose rise ended the Republic. “Veni, vidi, vici.”",
     "aliases": [
       "Gaius Julius Caesar",
@@ -1008,7 +1005,7 @@
   {
     "name": "Eva Braun",
     "occupation": "Photographer / Companion of Hitler",
-    "cause_of_death": "Suicide",
+    "cause_of_death": "Suicide by cyanide",
     "blurb": "Hitler's companion, whom he married hours before their deaths",
     "aliases": [],
     "difficulty": 3,
@@ -1034,7 +1031,7 @@
   {
     "name": "Mata Hari",
     "occupation": "Dancer / Spy",
-    "cause_of_death": "Execution",
+    "cause_of_death": "Executed by firing squad",
     "blurb": "exotic dancer executed as a spy in World War I",
     "aliases": [
       "Margaretha Zelle",
@@ -1069,7 +1066,7 @@
       "Saint Teresa of Calcutta",
       "Anjeze Gonxhe Bojaxhiu"
     ],
-    "difficulty": 1,
+    "difficulty": 2,
     "birth": {
       "place": "Üsküp, Ottoman Empire (modern day Skopje, North Macedonia)",
       "year": 1910,
@@ -1123,7 +1120,7 @@
     "cause_of_death": "Natural causes",
     "blurb": "refused to give up her bus seat, sparking the Montgomery bus boycott",
     "aliases": [],
-    "difficulty": 1,
+    "difficulty": 4,
     "birth": {
       "place": "Tuskegee, Alabama, USA",
       "year": 1913,
@@ -1149,7 +1146,7 @@
     "cause_of_death": "Illness",
     "blurb": "wrote Pride and Prejudice and Sense and Sensibility",
     "aliases": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "birth": {
       "place": "Steventon, Hampshire, England",
       "year": 1775,
@@ -1253,7 +1250,7 @@
   {
     "name": "Marie Antoinette",
     "occupation": "Queen of France",
-    "cause_of_death": "Execution",
+    "cause_of_death": "Guillotined",
     "blurb": "last queen of France before the Revolution",
     "aliases": [
       "Maria Antonia of Austria"
@@ -1310,7 +1307,7 @@
   {
     "name": "Mary Queen of Scots",
     "occupation": "Queen of Scotland",
-    "cause_of_death": "Execution",
+    "cause_of_death": "Beheaded",
     "blurb": "Catholic queen of Scotland executed by her cousin Elizabeth I",
     "aliases": [
       "Mary Stuart",
@@ -1484,7 +1481,7 @@
     "name": "Che Guevara",
     "gender": "man",
     "occupation": "Revolutionary / Guerrilla leader",
-    "cause_of_death": "Execution",
+    "cause_of_death": "Executed by firing squad",
     "blurb": "Argentine revolutionary who helped lead the Cuban Revolution. “Hasta la victoria siempre!”",
     "aliases": [
       "Ernesto Guevara",
@@ -1570,7 +1567,7 @@
     "name": "Empress Elisabeth of Austria",
     "gender": "woman",
     "occupation": "Empress of Austria",
-    "cause_of_death": "Assassination",
+    "cause_of_death": "Assassinated by stabbing",
     "blurb": "Empress of Austria and Queen of Hungary, celebrated for her beauty",
     "aliases": [
       "Sisi",
@@ -1623,6 +1620,755 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Grace_Kelly_1955.jpg/330px-Grace_Kelly_1955.jpg",
       "https://commons.wikimedia.org/wiki/Special:FilePath/Grace_Kelly_1955.jpg?width=320",
       "https://commons.wikimedia.org/wiki/Special:FilePath/Grace_Kelly_1955.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Stalin",
+    "gender": "man",
+    "occupation": "Dictator / Leader of the Soviet Union",
+    "cause_of_death": "Stroke",
+    "blurb": "dictator who led the Soviet Union through World War II",
+    "aliases": [
+      "Joseph Stalin",
+      "Iosif Stalin"
+    ],
+    "difficulty": 1,
+    "birth": {
+      "place": "Gori, Russian Empire (modern day Georgia)",
+      "year": 1878,
+      "lat": 41.9861,
+      "lng": 44.1093
+    },
+    "death": {
+      "place": "Moscow, Soviet Union",
+      "year": 1953,
+      "lat": 55.7558,
+      "lng": 37.6173
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/StalinCropped1943.jpg/330px-StalinCropped1943.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/StalinCropped1943.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/StalinCropped1943.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Louis XVI",
+    "gender": "man",
+    "occupation": "King of France",
+    "cause_of_death": "Guillotined",
+    "blurb": "king of France executed by guillotine during the French Revolution",
+    "aliases": [],
+    "difficulty": 1,
+    "birth": {
+      "place": "Versailles, France",
+      "year": 1754,
+      "lat": 48.8049,
+      "lng": 2.1204
+    },
+    "death": {
+      "place": "Paris, France",
+      "year": 1793,
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg/330px-Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_(1754-1793)%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_(1754-1793)%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Alexander Hamilton",
+    "gender": "man",
+    "occupation": "Founding Father / Statesman",
+    "cause_of_death": "Duel",
+    "blurb": "founding father killed in a duel with Aaron Burr",
+    "aliases": [],
+    "difficulty": 2,
+    "birth": {
+      "place": "Charlestown, Nevis, British West Indies (modern day Saint Kitts and Nevis)",
+      "year": 1755,
+      "lat": 17.1394,
+      "lng": -62.6166
+    },
+    "death": {
+      "place": "New York City, USA",
+      "year": 1804,
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Alexander_Hamilton_%28NPG%29.jpg/330px-Alexander_Hamilton_%28NPG%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Hamilton_(NPG).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Hamilton_(NPG).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Ferdinand Magellan",
+    "gender": "man",
+    "occupation": "Explorer / Navigator",
+    "cause_of_death": "Killed in battle",
+    "blurb": "led the first expedition to circumnavigate the globe",
+    "aliases": [
+      "Fernao de Magalhaes",
+      "Fernando de Magallanes"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Sabrosa, Portugal",
+      "year": 1480,
+      "lat": 41.264,
+      "lng": -7.5781
+    },
+    "death": {
+      "place": "Mactan Island, Philippines",
+      "year": 1521,
+      "lat": 10.3131,
+      "lng": 123.9662
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ferdinand_Magellan.jpg/330px-Ferdinand_Magellan.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Magellan.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Magellan.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Nikola Tesla",
+    "gender": "man",
+    "occupation": "Inventor / Electrical engineer",
+    "cause_of_death": "Heart failure",
+    "blurb": "inventor who pioneered alternating current",
+    "aliases": [],
+    "difficulty": 2,
+    "birth": {
+      "place": "Smiljan, Austrian Empire (modern day Croatia)",
+      "year": 1856,
+      "lat": 44.5646,
+      "lng": 15.3146
+    },
+    "death": {
+      "place": "New York City, USA",
+      "year": 1943,
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/330px-Tesla_circa_1890.jpeg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tesla_circa_1890.jpeg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tesla_circa_1890.jpeg?width=640"
+    ]
+  },
+  {
+    "name": "Vasco da Gama",
+    "gender": "man",
+    "occupation": "Explorer / Navigator",
+    "cause_of_death": "Malaria",
+    "blurb": "first European to sail directly to India by sea",
+    "aliases": [],
+    "difficulty": 2,
+    "birth": {
+      "place": "Sines, Portugal",
+      "year": 1460,
+      "lat": 37.9566,
+      "lng": -8.8723
+    },
+    "death": {
+      "place": "Kochi, India",
+      "year": 1524,
+      "lat": 9.9312,
+      "lng": 76.2673
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg/330px-Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell'ordine_di_cristo%2C_1525-50_ca._02.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell'ordine_di_cristo%2C_1525-50_ca._02.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Frédéric Chopin",
+    "gender": "man",
+    "occupation": "Composer / Pianist",
+    "cause_of_death": "Tuberculosis",
+    "blurb": "Polish composer who wrote almost exclusively for solo piano",
+    "aliases": [
+      "Fryderyk Chopin",
+      "Fryderyk Franciszek Chopin"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Zelazowa Wola, Duchy of Warsaw (modern day Poland)",
+      "year": 1810,
+      "lat": 52.2555,
+      "lng": 20.3258
+    },
+    "death": {
+      "place": "Paris, France",
+      "year": 1849,
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Frederic_Chopin_photo.jpeg/330px-Frederic_Chopin_photo.jpeg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frederic_Chopin_photo.jpeg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Frederic_Chopin_photo.jpeg?width=640"
+    ]
+  },
+  {
+    "name": "Abraham Lincoln",
+    "gender": "man",
+    "occupation": "16th U.S. President",
+    "cause_of_death": "Assassinated by gunshot",
+    "blurb": "16th President who freed the slaves and was assassinated at Ford's Theatre",
+    "aliases": [],
+    "difficulty": 2,
+    "birth": {
+      "place": "Hodgenville, Kentucky, USA",
+      "year": 1809,
+      "lat": 37.5784,
+      "lng": -85.7405
+    },
+    "death": {
+      "place": "Washington, D.C., USA",
+      "year": 1865,
+      "lat": 38.9072,
+      "lng": -77.0369
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/330px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Lincoln_1863_Portrait_(3x4_cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Lincoln_1863_Portrait_(3x4_cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Martin Luther King Jr.",
+    "gender": "man",
+    "occupation": "Civil rights leader",
+    "cause_of_death": "Assassinated by gunshot",
+    "blurb": "civil rights leader who gave the “I have a dream” speech",
+    "aliases": [],
+    "difficulty": 2,
+    "birth": {
+      "place": "Atlanta, Georgia, USA",
+      "year": 1929,
+      "lat": 33.749,
+      "lng": -84.388
+    },
+    "death": {
+      "place": "Memphis, Tennessee, USA",
+      "year": 1968,
+      "lat": 35.1495,
+      "lng": -90.049
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Martin_Luther_King%2C_Jr..jpg/330px-Martin_Luther_King%2C_Jr..jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King%2C_Jr..jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Luther_King%2C_Jr..jpg?width=640"
+    ]
+  },
+  {
+    "name": "John Lennon",
+    "gender": "man",
+    "occupation": "Musician / Singer-songwriter",
+    "cause_of_death": "Assassinated by gunshot",
+    "blurb": "Beatle and peace activist shot outside his New York home",
+    "aliases": [
+      "John Winston Lennon"
+    ],
+    "difficulty": 2,
+    "birth": {
+      "place": "Liverpool, England",
+      "year": 1940,
+      "lat": 53.4084,
+      "lng": -2.9916
+    },
+    "death": {
+      "place": "New York City, USA",
+      "year": 1980,
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_%28color%29_%28cropped%29.jpg/330px-John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_%28color%29_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_(color)_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_(color)_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Socrates",
+    "gender": "man",
+    "occupation": "Philosopher",
+    "cause_of_death": "Poisoned with hemlock",
+    "blurb": "Greek philosopher who taught Plato and founded the Socratic method of questioning. “The unexamined life is not worth living.”",
+    "aliases": [],
+    "difficulty": 2,
+    "birth": {
+      "place": "Athens, Ancient Greece",
+      "year": -470,
+      "lat": 37.9838,
+      "lng": 23.7275
+    },
+    "death": {
+      "place": "Athens, Ancient Greece",
+      "year": -399,
+      "lat": 37.9838,
+      "lng": 23.7275
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/330px-Socrates_Louvre.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Socrates_Louvre.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Socrates_Louvre.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Richard the Lionheart",
+    "gender": "man",
+    "occupation": "King of England",
+    "cause_of_death": "Arrow wound",
+    "blurb": "Crusader king of England who died from an arrow wound",
+    "aliases": [
+      "Richard I",
+      "Richard Coeur de Lion"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Oxford, England",
+      "year": 1157,
+      "lat": 51.752,
+      "lng": -1.2577
+    },
+    "death": {
+      "place": "Chalus, France",
+      "year": 1199,
+      "lat": 45.6547,
+      "lng": 1.3188
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Church_of_Fontevraud_Abbey_Richard_I_effigy.jpg/330px-Church_of_Fontevraud_Abbey_Richard_I_effigy.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_Fontevraud_Abbey_Richard_I_effigy.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_Fontevraud_Abbey_Richard_I_effigy.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Archduke Franz Ferdinand",
+    "gender": "man",
+    "occupation": "Heir to the Austro-Hungarian throne",
+    "cause_of_death": "Assassinated by gunshot",
+    "blurb": "his assassination started World War I",
+    "aliases": [
+      "Franz Ferdinand"
+    ],
+    "difficulty": 1,
+    "birth": {
+      "place": "Graz, Austrian Empire (modern day Austria)",
+      "year": 1863,
+      "lat": 47.0707,
+      "lng": 15.4395
+    },
+    "death": {
+      "place": "Sarajevo, Austria-Hungary (modern day Bosnia and Herzegovina)",
+      "year": 1914,
+      "lat": 43.8563,
+      "lng": 18.4131
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_%28cropped%29.jpg/330px-Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Rasputin",
+    "gender": "man",
+    "occupation": "Mystic / Healer",
+    "cause_of_death": "Poisoned, shot, clubbed, and drowned",
+    "blurb": "mystic healer to the Romanovs, murdered by conspirators",
+    "aliases": [
+      "Grigori Rasputin",
+      "Grigory Rasputin"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Pokrovskoye, Russian Empire (modern day Russia)",
+      "year": 1869,
+      "lat": 56.9586,
+      "lng": 65.808
+    },
+    "death": {
+      "place": "Saint Petersburg, Russian Empire",
+      "year": 1916,
+      "lat": 59.9343,
+      "lng": 30.3351
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rasputin_PA.jpg/330px-Rasputin_PA.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Rasputin_PA.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Rasputin_PA.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Hannibal",
+    "gender": "man",
+    "occupation": "Carthaginian general",
+    "cause_of_death": "Suicide by poison",
+    "blurb": "Carthaginian general who crossed the Alps with elephants to invade Rome",
+    "aliases": [
+      "Hannibal Barca"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Carthage, North Africa (modern day Tunisia)",
+      "year": -247,
+      "lat": 36.8588,
+      "lng": 10.3284
+    },
+    "death": {
+      "place": "Libyssa, Bithynia (modern day Turkey)",
+      "year": -183,
+      "lat": 40.8027,
+      "lng": 29.4307
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hannibal_Barca_bust_from_Capua_photo.jpg/330px-Hannibal_Barca_bust_from_Capua_photo.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hannibal_Barca_bust_from_Capua_photo.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hannibal_Barca_bust_from_Capua_photo.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Cyrus the Great",
+    "gender": "man",
+    "occupation": "King of the Achaemenid Empire",
+    "cause_of_death": "Killed in battle",
+    "blurb": "founder of the Persian Empire who was defeated by Queen Tomyris",
+    "aliases": [
+      "Kourosh"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Anshan, Persia (modern day Iran)",
+      "year": -600,
+      "lat": 29.9,
+      "lng": 52.4
+    },
+    "death": {
+      "place": "Massagetae territory, Central Asia (modern day Kazakhstan)",
+      "year": -530,
+      "lat": 44.5,
+      "lng": 65.5
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cyrus_II_%28The_Great%29_%28cropped%29.jpg/330px-Cyrus_II_%28The_Great%29_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Cyrus_II_(The_Great)_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Cyrus_II_(The_Great)_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Mehmed II",
+    "gender": "man",
+    "occupation": "Ottoman Sultan",
+    "cause_of_death": "Illness",
+    "blurb": "Ottoman sultan who conquered Constantinople in 1453",
+    "aliases": [
+      "Mehmed the Conqueror",
+      "Fatih Sultan Mehmed"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Edirne, Ottoman Empire (modern day Turkey)",
+      "year": 1432,
+      "lat": 41.6818,
+      "lng": 26.571
+    },
+    "death": {
+      "place": "Gebze, Ottoman Empire (modern day Turkey)",
+      "year": 1481,
+      "lat": 40.8027,
+      "lng": 29.4307
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg/330px-Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Francisco Pizarro",
+    "gender": "man",
+    "occupation": "Conquistador",
+    "cause_of_death": "Assassinated by stabbing",
+    "blurb": "Spanish conquistador who conquered Tawantinsuyu (externally referred to as the Inca Empire)",
+    "aliases": [],
+    "difficulty": 4,
+    "birth": {
+      "place": "Trujillo, Spain",
+      "year": 1471,
+      "lat": 39.4586,
+      "lng": -5.8811
+    },
+    "death": {
+      "place": "Lima, Peru",
+      "year": 1541,
+      "lat": -12.0464,
+      "lng": -77.0428
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Portrait_of_Francisco_Pizarro.jpg/330px-Portrait_of_Francisco_Pizarro.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Francisco_Pizarro.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Francisco_Pizarro.jpg?width=640"
+    ]
+  },
+  {
+    "name": "William the Conqueror",
+    "gender": "man",
+    "occupation": "King of England",
+    "cause_of_death": "Injury",
+    "blurb": "Norman duke who conquered England at the Battle of Hastings",
+    "aliases": [
+      "William I of England"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Falaise, Normandy",
+      "year": 1028,
+      "lat": 48.8936,
+      "lng": -0.1997
+    },
+    "death": {
+      "place": "Rouen, Normandy",
+      "year": 1087,
+      "lat": 49.4431,
+      "lng": 1.0993
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/William_the_Conqueror_%28TFA%29.jpg/330px-William_the_Conqueror_%28TFA%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/William_the_Conqueror_(TFA).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/William_the_Conqueror_(TFA).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Pablo Picasso",
+    "gender": "man",
+    "occupation": "Painter / Artist",
+    "cause_of_death": "Heart failure",
+    "blurb": "co-founder of Cubism and one of the most influential artists of the 20th century",
+    "aliases": [],
+    "difficulty": 3,
+    "birth": {
+      "place": "Malaga, Spain",
+      "year": 1881,
+      "lat": 36.7213,
+      "lng": -4.4214
+    },
+    "death": {
+      "place": "Mougins, France",
+      "year": 1973,
+      "lat": 43.5998,
+      "lng": 6.9972
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/330px-Pablo_picasso_1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_picasso_1.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_picasso_1.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Hernán Cortés",
+    "gender": "man",
+    "occupation": "Conquistador",
+    "cause_of_death": "Illness",
+    "blurb": "Spanish conquistador who toppled the Mexica-Nahua Coalition (externally referred to as the Aztec Empire)",
+    "aliases": [
+      "Hernándo Cortés"
+    ],
+    "difficulty": 5,
+    "birth": {
+      "place": "Medellin, Spain",
+      "year": 1485,
+      "lat": 38.9623,
+      "lng": -5.9579
+    },
+    "death": {
+      "place": "Castilleja de la Cuesta, Spain",
+      "year": 1547,
+      "lat": 37.388,
+      "lng": -6.0517
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg/330px-Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Attila",
+    "gender": "man",
+    "occupation": "King of the Huns",
+    "cause_of_death": "Nosebleed",
+    "blurb": "Scourge of God, king of the Huns who ravaged the Roman Empire",
+    "aliases": [
+      "Attila the Hun"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Pannonian Plain, Europe (modern day Hungary)",
+      "year": 406,
+      "lat": 47.58,
+      "lng": 21.15
+    },
+    "death": {
+      "place": "Pannonian Plain, Europe (modern day Hungary)",
+      "year": 453,
+      "lat": 47.58,
+      "lng": 21.15
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Attila_%28K%C3%A9pes_kr%C3%B3nika%29_%28cropped%29.jpg/330px-Attila_%28K%C3%A9pes_kr%C3%B3nika%29_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Attila_(K%C3%A9pes_kr%C3%B3nika)_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Attila_(K%C3%A9pes_kr%C3%B3nika)_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Kaiser Wilhelm II",
+    "gender": "man",
+    "occupation": "German Emperor",
+    "cause_of_death": "Pulmonary embolism",
+    "blurb": "German Kaiser whose decisions helped trigger World War I",
+    "aliases": [
+      "Wilhelm II",
+      "Wilhelm II of Germany"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Potsdam, Kingdom of Prussia (modern day Germany)",
+      "year": 1859,
+      "lat": 52.4009,
+      "lng": 13.0591
+    },
+    "death": {
+      "place": "Doorn, Netherlands",
+      "year": 1941,
+      "lat": 52.0333,
+      "lng": 5.35
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg/330px-Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Lenin",
+    "gender": "man",
+    "occupation": "Revolutionary / Founder of the Soviet Union",
+    "cause_of_death": "Stroke",
+    "blurb": "Bolshevik leader who founded the Soviet Union",
+    "aliases": [
+      "Vladimir Lenin",
+      "Vladimir Ilyich Ulyanov"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Simbirsk, Russian Empire (modern day Ulyanovsk, Russia)",
+      "year": 1870,
+      "lat": 54.3179,
+      "lng": 48.4036
+    },
+    "death": {
+      "place": "Gorki, Soviet Union (modern day Gorki Leninskiye, Russia)",
+      "year": 1924,
+      "lat": 55.5082,
+      "lng": 37.7833
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Lenin_in_1920_%28cropped%29.jpg/330px-Lenin_in_1920_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Lenin_in_1920_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Lenin_in_1920_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Blackbeard",
+    "gender": "man",
+    "occupation": "Pirate",
+    "cause_of_death": "Killed in battle",
+    "blurb": "infamous pirate captain of the Queen Anne's Revenge",
+    "aliases": [
+      "Edward Teach",
+      "Edward Thatch"
+    ],
+    "difficulty": 4,
+    "birth": {
+      "place": "Bristol, England",
+      "year": 1680,
+      "lat": 51.4545,
+      "lng": -2.5879
+    },
+    "death": {
+      "place": "Ocracoke Inlet, North Carolina, USA (now known as Teach’s Hole)",
+      "year": 1718,
+      "lat": 35.115,
+      "lng": -75.9819
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Edward_Teach_Commonly_Call%27d_Black_Beard_%28bw%29_%28cropped%29.jpg/330px-Edward_Teach_Commonly_Call%27d_Black_Beard_%28bw%29_%28cropped%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Teach_Commonly_Call'd_Black_Beard_(bw)_(cropped).jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Teach_Commonly_Call'd_Black_Beard_(bw)_(cropped).jpg?width=640"
+    ]
+  },
+  {
+    "name": "Nelson Mandela",
+    "gender": "man",
+    "occupation": "Anti-apartheid activist / President of South Africa",
+    "cause_of_death": "Old age",
+    "blurb": "anti-apartheid leader who became South Africa's first Black president",
+    "aliases": [
+      "Rolihlahla Mandela",
+      "Madiba"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Mvezo, Eastern Cape, South Africa",
+      "year": 1918,
+      "lat": -31.9475,
+      "lng": 28.611
+    },
+    "death": {
+      "place": "Johannesburg, South Africa",
+      "year": 2013,
+      "lat": -26.2041,
+      "lng": 28.0473
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/330px-Nelson_Mandela_1994.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Nelson_Mandela_1994.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Nelson_Mandela_1994.jpg?width=640"
+    ]
+  },
+  {
+    "name": "Tsar Nicholas II",
+    "gender": "man",
+    "occupation": "Emperor of Russia",
+    "cause_of_death": "Executed by firing squad",
+    "blurb": "last Tsar of Russia, executed with his family during the Russian Revolution",
+    "aliases": [
+      "Nicholas II",
+      "Nikolai Alexandrovich Romanov"
+    ],
+    "difficulty": 3,
+    "birth": {
+      "place": "Tsarskoye Selo, Russian Empire (modern day Pushkin, Russia)",
+      "year": 1868,
+      "lat": 59.7206,
+      "lng": 30.4083
+    },
+    "death": {
+      "place": "Yekaterinburg, Soviet Russia (modern day Russia)",
+      "year": 1918,
+      "lat": 56.8389,
+      "lng": 60.6057
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Mikola_II_%28cropped%29-2.jpg/330px-Mikola_II_%28cropped%29-2.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mikola_II_(cropped)-2.jpg?width=320",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Mikola_II_(cropped)-2.jpg?width=640"
     ]
   }
 ]

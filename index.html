@@ -32,6 +32,14 @@
     </div>
     <input type="range" id="difficultySlider" min="1" max="5" step="1" value="1" />
     <p class="difficulty-note">Changing the difficulty reshuffles the current game.</p>
+    <div class="girlypop-row">
+      <label class="switch" for="girlypopToggle">
+        <input type="checkbox" id="girlypopToggle" />
+        <span class="switch-track"></span>
+      </label>
+      <label for="girlypopToggle" class="girlypop-label">&#10024; Girlypop mode</label>
+    </div>
+    <p id="girlypopNote" class="difficulty-note girlypop-note hidden">Women only, starting at difficulty 2.</p>
   </section>
 
   <section class="map-wrap">
@@ -50,7 +58,17 @@
       <button type="submit">Guess</button>
     </form>
     <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
-    <button id="skipBtn" type="button" class="link-btn">Stuck? Reveal the answer</button>
+    <div id="hintsArea" class="hints-area"></div>
+    <div class="hint-row">
+      <button id="hintBtn" type="button" class="link-btn">&#128161; Hint</button>
+      <button id="skipBtn" type="button" class="link-btn">Stuck? Reveal the answer</button>
+    </div>
+    <div id="hintMenu" class="hint-menu hidden">
+      <button type="button" data-hint="occupation" class="hint-option"><span class="hint-option-name">Occupation</span><span class="hint-option-cost">&#215;&#189;</span></button>
+      <button type="button" data-hint="cause" class="hint-option"><span class="hint-option-name">Cause of death</span><span class="hint-option-cost">&#215;&#189;</span></button>
+      <button type="button" data-hint="image" class="hint-option"><span class="hint-option-name">Image</span><span class="hint-option-cost">&#215;&#188;</span></button>
+      <button type="button" data-hint="blurb" class="hint-option"><span class="hint-option-name">Blurb</span><span class="hint-option-cost">&#215;&#8539;</span></button>
+    </div>
   </section>
 
   <section id="revealPanel" class="panel hidden">
@@ -109,7 +127,8 @@
 <footer class="attribution">
   Map &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors &copy;
   <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> &middot;
-  Portraits &copy; their original uploaders via Wikimedia Commons
+  Portraits &copy; their original uploaders via Wikimedia Commons &middot;
+  Quiz concept by <a href="https://www.instagram.com/solunaaaa16/" target="_blank" rel="noopener">@solunaaaa16</a>
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

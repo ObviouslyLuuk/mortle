@@ -3,8 +3,14 @@
 
   const LS_KEY = 'mortle-stats';
   const LS_DIFF_KEY = 'mortle-difficulty';
+  const LS_GIRLY_KEY = 'mortle-girlypop';
+  const LS_HIST_KEY = 'mortle-history';
+  const HISTORY_MAX = 40;
+  const HISTORY_AVOIDANCE = 0.9;
+  const HISTORY_HALF_LIFE = 12;
   const ROUNDS = 10;
-  const FIT_MAX_ZOOM = 9;
+  const FIT_MAX_ZOOM = 6;
+  const HINT_FACTORS = { occupation: 0.5, cause: 0.5, image: 0.25, blurb: 0.125 };
 
   const DEFAULT_STATS = { points: 0, bestStreak: 0, gamesPlayed: 0, totalCorrect: 0 };
 
@@ -47,11 +53,16 @@
     difficultyValue: $('difficultyValue'),
     difficultySection: $('difficultySection'),
     diffLabel: $('diffLabel'),
+    girlypopToggle: $('girlypopToggle'),
+    girlypopNote: $('girlypopNote'),
     statsBtn: $('statsBtn'),
     statsModal: $('statsModal'),
     statsClose: $('statsClose'),
     modalScore: $('modalScore'),
     modalBestStreak: $('modalBestStreak'),
+    hintBtn: $('hintBtn'),
+    hintMenu: $('hintMenu'),
+    hintsArea: $('hintsArea'),
     modalGamesPlayed: $('modalGamesPlayed'),
     modalLifetimePoints: $('modalLifetimePoints'),
     modalTotalCorrect: $('modalTotalCorrect'),
@@ -65,6 +76,10 @@
   let streak = 0;
   let stats = loadStats();
   let maxDifficulty = loadDifficulty();
+  let girlypop = loadGirlypop();
+  let history = loadHistory();
+  let hintFactor = 1;
+  let hintsTaken = new Set();
 
   let map = null;
 
@@ -99,6 +114,41 @@
       [a[i], a[j]] = [a[j], a[i]];
     }
     return a;
+  }
+
+  // Pick a session while avoiding immediate repeats: figures answered
+  // correctly in recent rounds get a low weight that recovers slowly
+  // (half-life) toward 1. Figures the player got wrong are left at full
+  // weight so they repeat soon and the player can learn them.
+  function selectSession(pool) {
+    if (pool.length <= ROUNDS) return shuffle(pool);
+    const lastIdx = new Map();
+    history.forEach((entry, i) => lastIdx.set(entry.name, i));
+    const weights = pool.map((f) => {
+      const li = lastIdx.get(f.name);
+      if (li === undefined) return 1;
+      if (!history[li].correct) return 1;
+      const recency = history.length - 1 - li;
+      return Math.max(0.05, 1 - HISTORY_AVOIDANCE * Math.pow(0.5, recency / HISTORY_HALF_LIFE));
+    });
+    return weightedSample(pool, weights, ROUNDS);
+  }
+
+  function weightedSample(pool, weights, n) {
+    const remaining = pool.map((f, i) => ({ f, w: weights[i] }));
+    const result = [];
+    while (result.length < n && remaining.length) {
+      const total = remaining.reduce((s, x) => s + x.w, 0);
+      let r = Math.random() * total;
+      let pick = remaining.length - 1;
+      for (let i = 0; i < remaining.length; i++) {
+        r -= remaining[i].w;
+        if (r <= 0) { pick = i; break; }
+      }
+      result.push(remaining[pick].f);
+      remaining.splice(pick, 1);
+    }
+    return result;
   }
 
   // ---------- answer matching ----------
@@ -195,7 +245,7 @@
         [cur.birth.lat, cur.birth.lng],
         [cur.death.lat, cur.death.lng],
       ]),
-      { padding: [36, 36], maxZoom: FIT_MAX_ZOOM, animate: true }
+      { padding: [70, 70], maxZoom: FIT_MAX_ZOOM, animate: true }
     );
   }
 
@@ -212,8 +262,11 @@
   // ---------- game flow ----------
 
   function startGame() {
-    const pool = figures.filter((f) => f.difficulty <= maxDifficulty);
-    session = shuffle(pool).slice(0, ROUNDS);
+    const effMax = girlypop ? Math.max(maxDifficulty, 2) : maxDifficulty;
+    const pool = figures.filter(
+      (f) => (girlypop ? f.gender === 'woman' : true) && f.difficulty <= effMax
+    );
+    session = selectSession(pool);
     roundIdx = 0;
     score = 0;
     streak = 0;
@@ -232,6 +285,7 @@
     els.feedback.className = 'feedback';
     els.guessInput.value = '';
     renderMap(session[roundIdx]);
+    resetHints();
     hide(els.revealPanel, els.resultsPanel, els.loadError);
     show(els.gamePanel);
     updateHud();
@@ -242,6 +296,68 @@
     els.round.textContent = roundIdx >= session.length ? 'Done' : roundIdx + 1 + '/' + session.length;
     els.score.textContent = fmtScore(score);
     els.streak.textContent = streak;
+  }
+
+  // ---------- hints ----------
+
+  function fmtFactor(f) {
+    const n = Math.round(f * 100000) / 100000;
+    return String(n).replace(/\.?0+$/, '');
+  }
+
+  function resetHints() {
+    hintFactor = 1;
+    hintsTaken = new Set();
+    els.hintsArea.innerHTML = '';
+    hide(els.hintMenu);
+    els.hintMenu.querySelectorAll('.hint-option').forEach((btn) => (btn.disabled = false));
+  }
+
+  function updateHintUi() {
+    let mult = els.hintsArea.querySelector('.hint-multiplier');
+    if (!mult) {
+      mult = document.createElement('p');
+      mult.className = 'hint-multiplier';
+      els.hintsArea.prepend(mult);
+    }
+    mult.textContent = 'Hint multiplier: \u00d7' + fmtFactor(hintFactor);
+    els.hintMenu.querySelectorAll('.hint-option').forEach((btn) => {
+      btn.disabled = hintsTaken.has(btn.dataset.hint);
+    });
+  }
+
+  function takeHint(kind) {
+    if (hintsTaken.has(kind) || roundIdx >= session.length) return;
+    const cur = session[roundIdx];
+    hintsTaken.add(kind);
+    hintFactor *= HINT_FACTORS[kind];
+
+    const el = document.createElement('div');
+    if (kind === 'image') {
+      el.className = 'hint-image';
+      const img = document.createElement('img');
+      img.alt = 'Portrait';
+      img.hidden = true;
+      const fb = document.createElement('div');
+      fb.className = 'portrait-fallback';
+      fb.hidden = true;
+      el.appendChild(img);
+      el.appendChild(fb);
+      loadPortraitInto(img, fb, cur.images || [], cur.name);
+    } else {
+      el.className = 'hint-fact';
+      const label = kind === 'occupation' ? 'Occupation' : kind === 'cause' ? 'Cause of death' : 'Blurb';
+      const strong = document.createElement('strong');
+      strong.textContent = label + ': ';
+      const text = document.createTextNode(
+        kind === 'occupation' ? cur.occupation : kind === 'cause' ? cur.cause_of_death : cur.blurb || ''
+      );
+      el.appendChild(strong);
+      el.appendChild(text);
+    }
+    els.hintsArea.appendChild(el);
+    updateHintUi();
+    hide(els.hintMenu);
   }
 
   function handleGuess(e) {
@@ -257,7 +373,7 @@
     attempts++;
 
     if (checkGuess(val, cur)) {
-      const award = Math.pow(0.5, attempts - 1);
+      const award = Math.pow(0.5, attempts - 1) * hintFactor;
       score += award;
       streak++;
       stats.points += award;
@@ -267,7 +383,7 @@
       updateHud();
       showReveal(award, false);
     } else {
-      const nextAward = Math.pow(0.5, attempts);
+      const nextAward = Math.pow(0.5, attempts) * hintFactor;
       els.feedback.textContent =
         'Not quite, try again (' + fmtPoints(nextAward) + ' if correct now).';
       els.feedback.className = 'feedback wrong';
@@ -279,11 +395,17 @@
 
   function showReveal(award, skipped) {
     const cur = session[roundIdx];
+    recordRound(cur, !skipped);
+    const hintCount = hintsTaken.size;
+    const hintNote =
+      hintCount > 0
+        ? ' with ' + hintCount + ' ' + (hintCount === 1 ? 'hint' : 'hints')
+        : '';
     els.revealStatus.textContent = skipped
       ? 'Skipped. No points'
-      : award === 1
-        ? 'Correct on the first try!'
-        : 'Correct after ' + attempts + ' ' + (attempts === 1 ? 'try' : 'tries') + '!';
+      : (award === 1
+          ? 'Correct on the first try'
+          : 'Correct after ' + attempts + ' ' + (attempts === 1 ? 'try' : 'tries')) + hintNote + '!';
     els.revealStatus.classList.toggle('skipped', skipped);
     els.revealName.textContent = cur.name;
     if (cur.aliases && cur.aliases.length) {
@@ -307,12 +429,10 @@
     els.guessInput.blur();
   }
 
-  function loadPortrait(urls) {
-    const img = els.portrait;
-    const fb = els.portraitFallback;
+  function loadPortraitInto(img, fb, urls, name) {
     img.hidden = true;
     fb.hidden = true;
-    const initials = els.revealName.textContent
+    const initials = name
       .split(/\s+/)
       .filter(Boolean)
       .slice(0, 2)
@@ -338,6 +458,10 @@
       img.src = urls[i++];
     };
     tryNext();
+  }
+
+  function loadPortrait(urls) {
+    loadPortraitInto(els.portrait, els.portraitFallback, urls, els.revealName.textContent);
   }
 
   function showResults() {
@@ -405,6 +529,65 @@
     }
   }
 
+  function loadGirlypop() {
+    try {
+      return localStorage.getItem(LS_GIRLY_KEY) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function saveGirlypop() {
+    try {
+      localStorage.setItem(LS_GIRLY_KEY, girlypop ? '1' : '0');
+    } catch (e) {
+      /* ignore */
+    }
+  }
+
+  function loadHistory() {
+    try {
+      const raw = localStorage.getItem(LS_HIST_KEY);
+      const arr = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(arr)) return [];
+      return arr
+        .map((e) => (typeof e === 'string' ? { name: e, correct: true } : e))
+        .filter((e) => e && typeof e.name === 'string' && typeof e.correct === 'boolean');
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveHistory() {
+    try {
+      localStorage.setItem(LS_HIST_KEY, JSON.stringify(history));
+    } catch (e) {
+      /* ignore */
+    }
+  }
+
+  function recordRound(figure, correct) {
+    history.push({ name: figure.name, correct: !!correct });
+    if (history.length > HISTORY_MAX) history = history.slice(-HISTORY_MAX);
+    saveHistory();
+  }
+
+  // Girlypop mode: women only, and there aren't enough difficulty-1 women,
+  // so the minimum difficulty becomes 2.
+  function applyGirlypopUi() {
+    els.girlypopToggle.checked = girlypop;
+    els.difficultySlider.min = girlypop ? '2' : '1';
+    if (girlypop) show(els.girlypopNote);
+    else hide(els.girlypopNote);
+    if (girlypop && maxDifficulty < 2) {
+      maxDifficulty = 2;
+      els.difficultySlider.value = 2;
+      els.difficultyValue.textContent = 2;
+      els.diffLabel.textContent = 2;
+      saveDifficulty(2);
+    }
+  }
+
   // ---------- events ----------
 
   els.guessForm.addEventListener('submit', handleGuess);
@@ -427,6 +610,24 @@
     els.diffLabel.textContent = maxDifficulty;
     saveDifficulty(maxDifficulty);
     startGame();
+  });
+
+  els.girlypopToggle.addEventListener('change', () => {
+    girlypop = els.girlypopToggle.checked;
+    saveGirlypop();
+    applyGirlypopUi();
+    startGame();
+  });
+
+  els.hintBtn.addEventListener('click', () => {
+    if (roundIdx >= session.length) return;
+    els.hintMenu.classList.toggle('hidden');
+  });
+
+  els.hintMenu.addEventListener('click', (e) => {
+    const btn = e.target.closest('.hint-option');
+    if (!btn || btn.disabled) return;
+    takeHint(btn.dataset.hint, btn);
   });
 
   els.statsBtn.addEventListener('click', openStats);
@@ -461,6 +662,7 @@
     els.difficultySlider.value = maxDifficulty;
     els.difficultyValue.textContent = maxDifficulty;
     els.diffLabel.textContent = maxDifficulty;
+    applyGirlypopUi();
     try {
       const res = await fetch('historical_figures_quiz.json');
       if (!res.ok) throw new Error('HTTP ' + res.status);

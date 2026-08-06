@@ -20,6 +20,8 @@ Then open `http://localhost:8000`. Opening `index.html` directly from disk won't
 
 - Each game is **10 rounds**, picked randomly from the figure pool.
 - The **max difficulty slider** controls the pool: a setting of *N* draws only from figures rated difficulty 1 through *N* (default 1 = the easiest tier; slide up to 5 for everyone). It's always visible; moving it immediately reshuffles the current game with the new pool. Your setting is remembered in `localStorage`, and the current difficulty is shown in the header.
+- The **✨ Girlypop mode** toggle (next to the slider) limits the pool to women only. Because there aren't enough difficulty-1 women to fill a game, it forces the minimum difficulty to 2. The mode is remembered in `localStorage`.
+- Recently revealed figures are **de-prioritized** to avoid immediate repeats: the last rounds you saw are tracked in `localStorage` (`mortle-history`) and weighted down, but **only if you answered correctly**. Figures you got wrong are left at full weight so they come back soon and you can learn them. The penalty is strong for the last few correct rounds and recovers slowly (about half as likely 10 rounds later, fading to normal over ~40 rounds), and it applies across difficulty and mode changes.
 - The **Stats** button in the header opens your lifetime stats (current score, best streak, games played, lifetime points, total correct) at any time.
 - The map shows two markers: a **green** dot with a ring for the birthplace (labelled `born 1769`) and a **red** dot for the place of death (labelled `died 1821`).
 - The map auto-zooms to fit both locations (clamped so you see the surrounding region) and stays zoomable/pannable. Use the reset button to reframe.
@@ -34,6 +36,15 @@ Then open `http://localhost:8000`. Opening `index.html` directly from disk won't
 - ...each wrong guess halves the points for that round.
 - Skipping awards **0 points** and resets your streak.
 - Your streak increases with each correctly answered round and resets on a skip.
+
+**Hints (💡):** before answering you can reveal extra information, but each hint cuts that round's potential points by a factor, and they stack:
+
+- **Occupation** ×½
+- **Cause of death** ×½
+- **Image** ×¼
+- **Blurb** ×⅛
+
+E.g. taking Occupation and Blurb means a first-guess correct is worth `1 × 0.5 × 0.125 = 0.0625` points. Hints reset each round.
 
 Your lifetime stats are saved in `localStorage` (key `mortle-stats`): total points, best streak, games played, and total correct answers.
 
@@ -58,6 +69,13 @@ Every figure has a `difficulty` score from **1 to 5**:
 4. Someone history nerds have likely heard of.
 5. Someone even history nerds might not know.
 
+**Rule for difficulty 1** — a figure only qualifies if *all* of these hold:
+- everyone knows them, **and**
+- their life or death is tied to a greater historical event/period that most people also know (e.g. WWI, WWII, the French Revolution, the American Revolution, Ancient Greece, Ancient Rome, Ancient China), **and**
+- their death location is related to that event.
+
+A very unique birthplace (e.g. Zanzibar, the Netherlands) can also count toward tier 1. If a figure fails any requirement, bump it to a higher tier.
+
 The **max difficulty slider** is always visible; changing it reshuffles the current game so it draws only from figures up to that difficulty. The current difficulty is also shown in the header.
 
 ## Data format (`historical_figures_quiz.json`)
@@ -65,7 +83,7 @@ The **max difficulty slider** is always visible; changing it reshuffles the curr
 ```jsonc
 {
   "name": "Marie Curie",              // display name (the "most known" name)
-  "gender": "woman",                  // reserved for a future women-only mode
+  "gender": "woman",                  // used by Girlypop mode (women-only)
   "occupation": "Physicist / Chemist",
   "cause_of_death": "Radiation",
   "blurb": "pioneer of radioactivity who discovered polonium and radium",  // one-line tagline, see style notes below
@@ -113,5 +131,6 @@ The JSON `fetch` works fine on GitHub Pages (same origin).
 
 ## Attribution
 
+- Quiz concept by [@solunaaaa16](https://www.instagram.com/solunaaaa16/).
 - Map tiles © OpenStreetMap contributors, © CARTO.
 - Portraits © their original uploaders via Wikimedia Commons.
